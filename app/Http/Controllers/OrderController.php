@@ -28,7 +28,9 @@ class OrderController extends Controller
             ->first();
 
         if (! $order) {
-            return back()->with('status', 'No encontramos ningún pedido con esos datos.');
+            return back()
+                ->withInput()
+                ->with('status', 'No encontramos ningún pedido con esos datos. Revisa el ID de pedido y el correo electrónico.');
         }
 
         return view('tracking', compact('order'));

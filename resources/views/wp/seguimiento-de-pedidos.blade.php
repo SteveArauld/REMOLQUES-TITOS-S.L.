@@ -28,13 +28,23 @@
 <form action="/seguimiento-de-pedidos" method="post" class="woocommerce-form woocommerce-form-track-order track_order">
 @endverbatim
 @csrf
-@verbatim
 
+@if (session('status'))
+	<div class="woocommerce-info" role="alert">{{ session('status') }}</div>
+@endif
 
-	
+@if ($errors->any())
+	<ul class="woocommerce-error" role="alert">
+		@foreach ($errors->all() as $error)
+			<li>{{ $error }}</li>
+		@endforeach
+	</ul>
+@endif
+
 	<p>Para hacer seguimiento de tu pedido, por favor introduce el ID de tu pedido en el cuadro de abajo y pulsa el botón «Seguir». Esto se envió en tu recibo y en el correo electrónico de confirmación que deberías haber recibido.</p>
 
-	<p class="form-row form-row-first"><label for="orderid">ID de pedido</label> <input class="input-text" type="text" name="orderid" id="orderid" value="" placeholder="Se encuentra en tu correo electrónico de confirmación de pedido." /></p>	<p class="form-row form-row-last"><label for="order_email">Correo electrónico de facturación</label> <input class="input-text" type="text" name="order_email" id="order_email" value="" placeholder="El correo electrónico que utilizaste durante el pago." /></p>	<div class="clear"></div>
+	<p class="form-row form-row-first"><label for="orderid">ID de pedido</label> <input class="input-text" type="text" name="orderid" id="orderid" value="{{ old('orderid', old('order_number')) }}" placeholder="Se encuentra en tu correo electrónico de confirmación de pedido." /></p>	<p class="form-row form-row-last"><label for="order_email">Correo electrónico de facturación</label> <input class="input-text" type="email" name="order_email" id="order_email" value="{{ old('order_email', old('email')) }}" placeholder="El correo electrónico que utilizaste durante el pago." /></p>	<div class="clear"></div>
+@verbatim
 
 	
 	<p class="form-row"><button type="submit" class="button" name="track" value="Seguir">Seguir</button></p>

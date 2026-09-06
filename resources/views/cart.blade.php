@@ -50,11 +50,15 @@
                                     <span class="woocommerce-Price-amount amount"><bdi><span data-line-price="{{ $line['id'] }}">{{ number_format($line['price'], 2, ',', '.') }}</span>&nbsp;<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span>
                                 </div>
                                 <div class="product-quantity" data-title="Cantidad">
+                                    {{-- .box est pré-rendu : le script du thème n'injecte alors PAS ses propres
+                                         boutons +/- (évite les doublons et la mise en page cassée). --}}
                                     <div class="quantity">
-                                        <button type="button" class="tr-cart-step" data-step="-1" data-for="{{ $line['id'] }}" aria-label="Restar">&minus;</button>
-                                        <input type="number" name="quantities[{{ $line['id'] }}]" value="{{ $line['qty'] }}" min="0" max="99"
-                                               class="input-text qty text" data-line-qty="{{ $line['id'] }}">
-                                        <button type="button" class="tr-cart-step" data-step="1" data-for="{{ $line['id'] }}" aria-label="Sumar">+</button>
+                                        <span class="box">
+                                            <button type="button" class="tr-cart-step" data-step="-1" data-for="{{ $line['id'] }}" aria-label="Restar">&minus;</button>
+                                            <input type="number" name="quantities[{{ $line['id'] }}]" value="{{ $line['qty'] }}" min="0" max="99"
+                                                   class="input-text qty text" data-line-qty="{{ $line['id'] }}">
+                                            <button type="button" class="tr-cart-step" data-step="1" data-for="{{ $line['id'] }}" aria-label="Sumar">+</button>
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="product-subtotal" data-title="Subtotal">
@@ -211,9 +215,15 @@
 })();
 </script>
 <style>
-.woocommerce-cart-form .quantity{display:inline-flex;align-items:center;gap:4px}
-.tr-cart-step{width:30px;height:34px;border:1px solid #ddd;background:#fff;cursor:pointer;font-size:16px;line-height:1;border-radius:6px}
-.tr-cart-step:hover{background:#f3f3f3}
+/* Sélecteur de quantité du panier : mise en page maîtrisée, on neutralise les
+   règles du thème (.woocommerce-page .quantity button{float:left} etc.). */
+.woocommerce-cart-form .product-quantity .quantity{display:inline-block}
+.woocommerce-cart-form .product-quantity .quantity .box{display:inline-flex !important;align-items:stretch;border:1px solid #ddd;border-radius:6px;overflow:hidden;background:#fff;width:auto;max-width:none}
+.woocommerce-cart-form .product-quantity .quantity .box .tr-cart-step{float:none !important;width:36px;min-width:36px;height:40px;line-height:1 !important;padding:0 !important;margin:0 !important;border:0 !important;background:#fff;color:#333;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;transition:background .15s}
+.woocommerce-cart-form .product-quantity .quantity .box .tr-cart-step:hover{background:#f3f3f3;color:var(--tb-theme-color,#333)}
+.woocommerce-cart-form .product-quantity .quantity .box input.qty{float:none !important;width:44px !important;height:40px !important;margin:0 !important;padding:0 !important;border:0 !important;border-left:1px solid #eee !important;border-right:1px solid #eee !important;background:#fff;text-align:center;font-size:15px;-moz-appearance:textfield}
+.woocommerce-cart-form .product-quantity .quantity .box input.qty::-webkit-inner-spin-button,
+.woocommerce-cart-form .product-quantity .quantity .box input.qty::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
 .tr-cart-busy .cart_totals,.tr-cart-busy .shop_table.cart{opacity:.55;pointer-events:none;transition:opacity .15s}
 </style>
 @endpush

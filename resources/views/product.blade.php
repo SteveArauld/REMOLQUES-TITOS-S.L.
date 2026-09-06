@@ -314,6 +314,55 @@
             if (e.key === 'ArrowRight') openLb(idx + 1);
         });
     }
+    /* Panier : on garantit qu'aucun clic (stepper +/- ou « Añadir al carrito »)
+       ne recharge la page ni n'ouvre le panneau, même si shop-bridge.js tarde
+       ou si un script du thème tente de soumettre le formulaire. */
+    var cartForm = pdp && pdp.querySelector('form.cart');
+    if (cartForm) {
+        var qtyInput = cartForm.querySelector('.tr-qv-qty');
+
+        cartForm.addEventListener('click', function (e) {
+            var step = e.target.closest('.tr-qv-step');
+            if (!step || !qtyInput) return;
+            e.preventDefault();
+            e.stopPropagation();
+            var v = (parseInt(qtyInput.value, 10) || 1) + (parseInt(step.getAttribute('data-step'), 10) || 0);
+            qtyInput.value = Math.min(99, Math.max(1, v));
+        });
+
+        cartForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            var btn = cartForm.querySelector('.single_add_to_cart_button');
+            var token = (document.querySelector('meta[name="csrf-token"]') || {}).content || '';
+            var fd = new FormData(cartForm);
+            fd.set('quantity', qtyInput ? (parseInt(qtyInput.value, 10) || 1) : 1);
+            if (btn) btn.classList.add('loading');
+            fetch(cartForm.getAttribute('action'), {
+                method: 'POST',
+                body: fd,
+                headers: { 'X-Requested-With': 'XMLHttpRequest', 'Accept': 'application/json', 'X-CSRF-TOKEN': token }
+            })
+                .then(function (r) { return r.ok ? r.json() : Promise.reject(r); })
+                .then(function (d) {
+                    if (btn) { btn.classList.remove('loading'); btn.classList.add('added'); }
+                    document.querySelectorAll('.widget_shopping_cart_content, .tbay-topcart .dropdown-menu')
+                        .forEach(function (c) { if (d && typeof d.html === 'string') c.innerHTML = d.html; });
+                    document.querySelectorAll('.mini-cart-items, .cart-count, .count-cart, .tbay-mini-cart .count, .cart_count')
+                        .forEach(function (n) { if (d && typeof d.count !== 'undefined') n.textContent = d.count; });
+                    var t = document.getElementById('tr-toast') || (function () {
+                        var x = document.createElement('div'); x.id = 'tr-toast'; document.body.appendChild(x); return x;
+                    })();
+                    t.textContent = (d && d.added ? '«' + d.added + '» ' : 'Producto ') + 'añadido a la cesta.';
+                    t.classList.add('is-visible');
+                    setTimeout(function () { t.classList.remove('is-visible'); }, 3200);
+                })
+                .catch(function () {
+                    if (btn) btn.classList.remove('loading');
+                    window.location.href = '{{ route('cart.index') }}';
+                });
+        });
+    }
+
     var tabs = document.getElementById('woocommerce-tabs');
     if (tabs) {
         tabs.querySelectorAll('.wc-tabs a').forEach(function (a) {
