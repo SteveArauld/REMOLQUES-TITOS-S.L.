@@ -23,8 +23,13 @@
   }
 
   function paintCount(count) {
+    var n = parseInt(count, 10) || 0;
     document.querySelectorAll('.mini-cart-items, .cart-count, .count-cart, .mini-cart-counter, .tbay-mini-cart .count, .cart_count')
-      .forEach(function (n) { n.textContent = count; });
+      .forEach(function (el) {
+        el.textContent = n;
+        el.classList.toggle('is-empty', n === 0);
+        el.style.display = n === 0 ? 'none' : '';
+      });
   }
 
   function cartProductIds() {

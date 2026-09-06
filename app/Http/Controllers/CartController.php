@@ -33,7 +33,11 @@ class CartController extends Controller
         return redirect()->route('cart.index')->with('status', 'Producto añadido a la cesta.');
     }
 
-    /** Ajout rapide via lien GET (repli sans JavaScript / robustesse SEO). */
+    /**
+     * Ajout rapide via lien GET : repli quand le JavaScript du thème ne s'exécute
+     * pas (cache CDN, etc.). On NE redirige PAS vers le panier — on revient sur la
+     * page d'où vient le clic, avec un message.
+     */
     public function addQuick(Request $request, string $ref)
     {
         $product = Product::findByRef($ref);
@@ -42,7 +46,18 @@ class CartController extends Controller
         $qty = max(1, min(99, (int) $request->integer('cantidad', 1)));
         $this->cart->add($product, $qty);
 
-        return redirect()->route('cart.index')->with('status', 'Producto añadido a la cesta.');
+        $status = 'Producto añadido a la cesta.';
+
+        if ($request->expectsJson() || $request->ajax()) {
+            return $this->fragmentPayload(['added' => $product->name]);
+        }
+
+        $back = url()->previous();
+        if (! $back || $back === $request->fullUrl() || str_contains($back, '/carrito')) {
+            $back = route('shop');
+        }
+
+        return redirect($back)->with('status', $status);
     }
 
     /** Fragment HTML du mini-panier + compteurs, pour rafraîchir sans recharger. */
@@ -69,10 +84,28 @@ class CartController extends Controller
 
     private function fragmentPayload(array $extra = [])
     {
+        $fmt = fn ($v) => number_format((float) $v, 2, ',', '.');
+
+        $lines = [];
+        foreach ($this->cart->items() as $line) {
+            $lines[(string) $line['id']] = [
+                'qty'        => (int) $line['qty'],
+                'line_total' => $fmt($line['line_total']),
+                'price'      => $fmt($line['price']),
+            ];
+        }
+
         return response()->json(array_merge([
             'count'    => $this->cart->count(),
+            'empty'    => $this->cart->isEmpty(),
             'subtotal' => $this->cart->subtotal(),
             'html'     => view('partials.mini-cart')->render(),
+            'lines'    => $lines,
+            'totals'   => [
+                'subtotal' => $fmt($this->cart->subtotal()),
+                'shipping' => $this->cart->shipping() == 0 ? null : $fmt($this->cart->shipping()),
+                'total'    => $fmt($this->cart->total()),
+            ],
         ], $extra));
     }
 

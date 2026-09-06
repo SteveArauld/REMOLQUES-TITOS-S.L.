@@ -41,21 +41,24 @@
                         </div>
 
                         @foreach ($items as $line)
-                            <div class="cart_item">
+                            <div class="cart_item" data-cart-row="{{ $line['id'] }}">
                                 <div class="product-info">
                                     <a href="{{ route('product.show', $line['slug']) }}"><img src="{{ $line['image'] }}" alt="{{ $line['name'] }}"></a>
                                     <div class="product-name"><a href="{{ route('product.show', $line['slug']) }}">{{ $line['name'] }}</a></div>
                                 </div>
                                 <div class="product-price" data-title="Precio">
-                                    <span class="woocommerce-Price-amount amount"><bdi>{{ number_format($line['price'], 2, ',', '.') }}&nbsp;<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span>
+                                    <span class="woocommerce-Price-amount amount"><bdi><span data-line-price="{{ $line['id'] }}">{{ number_format($line['price'], 2, ',', '.') }}</span>&nbsp;<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span>
                                 </div>
                                 <div class="product-quantity" data-title="Cantidad">
                                     <div class="quantity">
-                                        <input type="number" name="quantities[{{ $line['id'] }}]" value="{{ $line['qty'] }}" min="0" max="99" class="input-text qty text">
+                                        <button type="button" class="tr-cart-step" data-step="-1" data-for="{{ $line['id'] }}" aria-label="Restar">&minus;</button>
+                                        <input type="number" name="quantities[{{ $line['id'] }}]" value="{{ $line['qty'] }}" min="0" max="99"
+                                               class="input-text qty text" data-line-qty="{{ $line['id'] }}">
+                                        <button type="button" class="tr-cart-step" data-step="1" data-for="{{ $line['id'] }}" aria-label="Sumar">+</button>
                                     </div>
                                 </div>
                                 <div class="product-subtotal" data-title="Subtotal">
-                                    <span class="woocommerce-Price-amount amount"><bdi>{{ number_format($line['line_total'], 2, ',', '.') }}&nbsp;<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span>
+                                    <span class="woocommerce-Price-amount amount"><bdi><span data-line-total="{{ $line['id'] }}">{{ number_format($line['line_total'], 2, ',', '.') }}</span>&nbsp;<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span>
                                 </div>
                                 <div class="product-remove">
                                     <a href="#" class="remove" data-cart-remove="{{ $line['id'] }}" aria-label="Eliminar este artículo"><i class="tb-icon tb-icon-cross"></i></a>
@@ -65,7 +68,8 @@
 
                         <div class="cart-bottom">
                             <span class="continue-to-shop"><a href="{{ route('shop') }}">Seguir comprando</a></span>
-                            <span class="update-cart"><button type="submit" name="update_cart" value="1" class="update">Actualizar cesta</button></span>
+                            {{-- Repli sans JavaScript uniquement --}}
+                            <noscript><span class="update-cart"><button type="submit" name="update_cart" value="1" class="update">Actualizar cesta</button></span></noscript>
                         </div>
                     </div>
                 </form>
@@ -86,11 +90,11 @@
                             <tbody>
                                 <tr class="cart-subtotal">
                                     <th>Subtotal</th>
-                                    <td><span class="woocommerce-Price-amount amount"><bdi>{{ number_format($cart->subtotal(), 2, ',', '.') }}&nbsp;<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></td>
+                                    <td><span class="woocommerce-Price-amount amount"><bdi><span data-cart-subtotal>{{ number_format($cart->subtotal(), 2, ',', '.') }}</span>&nbsp;<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></td>
                                 </tr>
                                 <tr class="woocommerce-shipping-totals shipping">
                                     <th>Envío</th>
-                                    <td>
+                                    <td data-cart-shipping>
                                         @if ($cart->shipping() == 0)
                                             Envío gratuito
                                         @else
@@ -100,7 +104,7 @@
                                 </tr>
                                 <tr class="order-total">
                                     <th>Total</th>
-                                    <td><strong><span class="woocommerce-Price-amount amount"><bdi>{{ number_format($cart->total(), 2, ',', '.') }}&nbsp;<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></strong></td>
+                                    <td><strong><span class="woocommerce-Price-amount amount"><bdi><span data-cart-total>{{ number_format($cart->total(), 2, ',', '.') }}</span>&nbsp;<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></strong></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -112,15 +116,105 @@
             </div>
         </div>
 
-        <script>
-        document.addEventListener('click', function (e) {
-            var r = e.target.closest('.shop_table.cart a.remove[data-cart-remove]');
-            if (!r) return;
-            e.preventDefault();
-            var f = document.getElementById('remove-' + r.getAttribute('data-cart-remove'));
-            if (f) f.submit();
-        });
-        </script>
     @endif
 </div>
+
+@push('scripts')
+<script>
+(function () {
+    var root = document.querySelector('.woocommerce-cart-form');
+    if (!root) return;
+
+    var token = (document.querySelector('meta[name="csrf-token"]') || {}).content || '';
+    var H = { 'X-Requested-With': 'XMLHttpRequest', 'Accept': 'application/json', 'X-CSRF-TOKEN': token };
+    var busy = false;
+
+    function post(url, params) {
+        var fd = new FormData();
+        fd.append('_token', token);
+        Object.keys(params).forEach(function (k) { fd.append(k, params[k]); });
+        busy = true;
+        document.body.classList.add('tr-cart-busy');
+        return fetch(url, { method: 'POST', body: fd, headers: H })
+            .then(function (r) { return r.json(); })
+            .then(function (d) { apply(d); return d; })
+            .catch(function () { location.reload(); })
+            .finally(function () { busy = false; document.body.classList.remove('tr-cart-busy'); });
+    }
+
+    function apply(d) {
+        if (!d) return;
+        if (d.empty) { location.reload(); return; }
+
+        (d.lines ? Object.keys(d.lines) : []).forEach(function (id) {
+            var L = d.lines[id];
+            var qty = document.querySelector('[data-line-qty="' + id + '"]');
+            if (qty && document.activeElement !== qty) qty.value = L.qty;
+            var lt = document.querySelector('[data-line-total="' + id + '"]');
+            if (lt) lt.textContent = L.line_total;
+        });
+
+        // Lignes supprimées côté serveur
+        document.querySelectorAll('[data-cart-row]').forEach(function (row) {
+            var id = row.getAttribute('data-cart-row');
+            if (!d.lines || !d.lines[id]) row.remove();
+        });
+
+        if (d.totals) {
+            set('[data-cart-subtotal]', d.totals.subtotal);
+            set('[data-cart-total]', d.totals.total);
+            var sh = document.querySelector('[data-cart-shipping]');
+            if (sh) sh.innerHTML = d.totals.shipping
+                ? '<span class="woocommerce-Price-amount amount"><bdi>' + d.totals.shipping + '&nbsp;<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span>'
+                : 'Envío gratuito';
+        }
+
+        // Compteur + mini-panier de l'en-tête (réutilise shop-bridge si présent)
+        document.querySelectorAll('.mini-cart-items, .cart-count, .count-cart, .cart_count, .tbay-mini-cart .count')
+            .forEach(function (n) { n.textContent = d.count; });
+    }
+    function set(sel, val) { var n = document.querySelector(sel); if (n) n.textContent = val; }
+
+    function changeQty(id, val) {
+        val = Math.max(0, Math.min(99, parseInt(val, 10) || 0));
+        if (busy) return;
+        post('{{ route('cart.line') }}', { product_id: id, qty: val });
+    }
+
+    var timer;
+    root.addEventListener('input', function (e) {
+        var inp = e.target.closest('[data-line-qty]');
+        if (!inp) return;
+        clearTimeout(timer);
+        timer = setTimeout(function () { changeQty(inp.getAttribute('data-line-qty'), inp.value); }, 450);
+    });
+    root.addEventListener('change', function (e) {
+        var inp = e.target.closest('[data-line-qty]');
+        if (inp) { clearTimeout(timer); changeQty(inp.getAttribute('data-line-qty'), inp.value); }
+    });
+
+    root.addEventListener('click', function (e) {
+        var step = e.target.closest('.tr-cart-step');
+        if (step) {
+            e.preventDefault();
+            var inp = root.querySelector('[data-line-qty="' + step.getAttribute('data-for') + '"]');
+            if (inp) changeQty(step.getAttribute('data-for'),
+                (parseInt(inp.value, 10) || 0) + (parseInt(step.getAttribute('data-step'), 10) || 0));
+            return;
+        }
+        var rm = e.target.closest('a.remove[data-cart-remove]');
+        if (rm) {
+            e.preventDefault();
+            post('{{ route('cart.remove.post') }}', { product_id: rm.getAttribute('data-cart-remove') });
+        }
+    });
+})();
+</script>
+<style>
+.woocommerce-cart-form .quantity{display:inline-flex;align-items:center;gap:4px}
+.tr-cart-step{width:30px;height:34px;border:1px solid #ddd;background:#fff;cursor:pointer;font-size:16px;line-height:1;border-radius:6px}
+.tr-cart-step:hover{background:#f3f3f3}
+.tr-cart-busy .cart_totals,.tr-cart-busy .shop_table.cart{opacity:.55;pointer-events:none;transition:opacity .15s}
+</style>
+@endpush
 @endsection

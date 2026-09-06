@@ -1003,6 +1003,14 @@
         .footer-logo-img{height:64px !important;max-height:72px}
         @media (max-width:1199px){.header-logo-img{height:46px !important}.footer-logo-img{height:54px !important}}
 
+        /* ===== Datos legales de la empresa (pie de página, todas las páginas) ===== */
+        .company-legal-info{background:#0b3d1e;color:#e8f3ea;padding:18px 0;font-size:12px;line-height:1.7;text-align:center}
+        .company-legal-info .container{max-width:1200px;margin:0 auto;padding:0 15px}
+        .company-legal-info p{margin:0 0 4px}
+        .company-legal-info p:last-child{margin-bottom:0}
+        .company-legal-info strong{color:#fff}
+        @media (max-width:600px){.company-legal-info{font-size:11px}}
+
         /* ===== Bouton flottant WhatsApp ===== */
         .tr-wa{position:fixed;right:20px;bottom:20px;z-index:99999;display:flex;align-items:center;justify-content:center;
             width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;box-shadow:0 6px 20px rgba(0,0,0,.25);
@@ -1016,6 +1024,57 @@
         .tbay-to-top,.tbay-to-top.active{right:20px;bottom:92px}
         .tbay-to-top-mobile,.tbay-to-top-mobile.active{right:14px;bottom:78px}
         @media (max-width:600px){.tbay-to-top,.tbay-to-top.active{right:14px;bottom:78px}}
+
+        /* ===== Corrections responsive ===== */
+        /* Barre de navigation mobile fixe en bas : on remonte le bouton WhatsApp
+           et le "retour en haut" pour ne plus recouvrir "Mi cuenta". */
+        @media (max-width:1199px){
+            .tr-wa{bottom:88px}
+            .tbay-to-top,.tbay-to-top.active,.tbay-to-top-mobile,.tbay-to-top-mobile.active{bottom:152px}
+        }
+        @media (max-width:600px){
+            .tr-wa{right:12px;bottom:84px}
+            .tbay-to-top,.tbay-to-top.active,.tbay-to-top-mobile,.tbay-to-top-mobile.active{bottom:146px}
+        }
+
+        /* Bande "Envío rápido / Pago seguro / Posible descuento / Asistencia 24/7"
+           + colonnes de liens du pied de page : empilage sur mobile. */
+        @media (max-width:991px){
+            .tbay-footer .elementor-container{flex-wrap:wrap}
+            .tbay-footer .elementor-col-25{width:50% !important;flex:0 0 50% !important}
+        }
+        @media (max-width:575px){
+            .tbay-footer .elementor-col-25{width:100% !important;flex:0 0 100% !important}
+            .tbay-footer .elementor-icon-box-wrapper{flex-direction:column;text-align:center;gap:6px}
+            .tbay-footer .elementor-icon-box-icon{margin:0 auto}
+            .tbay-footer .elementor-icon-box-content,
+            .tbay-footer .elementor-icon-box-title,
+            .tbay-footer .elementor-icon-box-title > span{text-align:center !important}
+        }
+
+        /* ===== Barre de recherche mobile : masquée, ouverte via un bouton loupe ===== */
+        .tr-search-toggle{display:none}
+        @media (max-width:1199px){
+            /* Barre mobile collante (plus d'en-tête fixe -> plus d'espace vide en haut) */
+            .topbar-device-mobile{position:sticky !important;top:0}
+            #wrapper-container.wrapper-container,
+            body .wrapper-container,
+            body.tbay-search-mb .wrapper-container{padding-top:0 !important}
+
+            /* La zone de recherche devient un simple bouton en ligne (près du panier) */
+            .topbar-device-mobile > div.search-device{
+                flex:0 0 auto !important;width:auto !important;display:flex !important;
+                align-items:center;justify-content:flex-end;padding-bottom:0 !important}
+            .tr-search-toggle{display:inline-flex;align-items:center;justify-content:center;
+                width:42px;height:42px;color:inherit}
+            .tr-search-toggle i{font-size:20px}
+            .topbar-device-mobile > div.search-device .tbay-search-form.tbay-search-mobile{
+                display:none;position:absolute;top:100%;left:0;right:0;z-index:60;width:auto;
+                background:#fff;padding:10px;border-top:1px solid #e5e5e5;box-shadow:0 10px 18px rgba(0,0,0,.18)}
+            /* .is-open doit battre la règle display:none ci-dessus (même spécificité de base) */
+            .topbar-device-mobile > div.search-device.is-open .tbay-search-form.tbay-search-mobile{display:block !important}
+            .search-device.is-open .tr-search-toggle{opacity:.55}
+        }
         </style>
         <link rel='stylesheet' id='elementor-post-3493-css' href='/wp-content/uploads/elementor/css/post-34931e61.css'
             media='all' />
@@ -1330,13 +1389,13 @@
 
     @endverbatim
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="stylesheet" href="/assets/css/lv.css">
+    <link rel="stylesheet" href="/assets/css/lv.css?v={{ @filemtime(public_path('assets/css/lv.css')) ?: date('Ymd') }}">
     @verbatim
     </head>
 
     @endverbatim
     <body data-rsssl=1
-        class="wp-theme-zota theme-zota woocommerce-no-js eio-default woo-variation-swatches wvs-behavior-blur wvs-theme-zota wvs-show-label wvs-tooltip skin-electronics tbay-show-cart-mobile tbay-body-mobile-product-two tbay-hide-variation-selector tbay-show-quantity-mobile elementor-default elementor-kit-6 tbay-variation-free ajax_cart_popup @yield('body_class', 'home wp-singular page-template-default page page-id-384 tbay-homepage-demo tbay-search-mb inicio tbay-home elementor-page elementor-page-384 woocommerce woocommerce-page')">
+        class="wp-theme-zota theme-zota woocommerce-no-js eio-default woo-variation-swatches wvs-behavior-blur wvs-theme-zota wvs-show-label wvs-tooltip skin-electronics tbay-show-cart-mobile tbay-body-mobile-product-two tbay-hide-variation-selector tbay-show-quantity-mobile elementor-default elementor-kit-6 tbay-variation-free ajax_cart_popup @yield('body_class', 'home wp-singular page-template-default page page-id-384 tbay-homepage-demo inicio tbay-home elementor-page elementor-page-384 woocommerce woocommerce-page')">
     @verbatim
         <div id="wrapper-container" class="wrapper-container">
 
@@ -1394,7 +1453,7 @@
                             class="tb-icon tb-icon-menu"></i></a><a href="#page" class="btn btn-sm"><i
                             class="tb-icon tb-icon-cross"></i></a></div>
                 <div class="topbar-icon-home"><a href="/"><i class="tb-icon tb-icon-home3"></i></a></div>
-                <div class="mobile-logo"><a href="/"><img src="/assets/img/logo-blanc.png" width="567" height="440" alt="Remolques Titos"></a></div>
+                <div class="mobile-logo"><a href="/"><img src="/assets/img/logo.png" width="567" height="440" alt="Remolques Titos"></a></div>
                 <div class="device-mini_cart top-cart tbay-element-mini-cart">
                     <div class="tbay-dropdown-cart sidebar-right">
                         <div class="dropdown-content">
@@ -1426,6 +1485,9 @@
                 </div>
                 <div class="search-device">
 
+                    <a href="#" class="tr-search-toggle" role="button" aria-label="Buscar" aria-expanded="false">
+                        <i aria-hidden="true" class="tb-icon tb-icon-search"></i>
+                    </a>
 
                     <div class="tbay-search-form tbay-search-mobile">
                         <form action="/tienda" method="get" data-parents=".topbar-device-mobile"
@@ -1469,11 +1531,9 @@
                     <div class="menu-icon"><a title="Tienda" class="shop" href="/tienda"><span
                                 class="menu-icon-child"><i
                                     class="tb-icon tb-icon-store"></i><span>Tienda</span></span></a></div>
-                    <div class="menu-icon"><a title="Mi cesta" class="wishlist" href="/favoritos"><span
-                                class="menu-icon-child"><i class="icon-cart"></i><span
-                                    class="count count_wishlist">0</span><span>Mi cesta</span></span></a></div>
+                    <div class="menu-icon"><a title="Mi cesta" class="cart" href="/carrito"><span class="menu-icon-child"><i class="tb-icon tb-icon-cart"></i><span class="mini-cart-items">0</span><span>Mi cesta</span></span></a></div>
                     <div class="menu-icon"><a title="Mi cuenta" class="account" href="/mi-cuenta"><span
-                                class="menu-icon-child"><i class="icon-user"></i><span>Mi cuenta</span></span></a></div>
+                                class="menu-icon-child"><i class="tb-icon tb-icon-user"></i><span>Mi cuenta</span></span></a></div>
                 </div>
             </div>
 
@@ -2302,6 +2362,27 @@ Remolques Titos. Todos los derechos reservados.</p>
                     </section>
                 </div>
 
+                <div class="company-legal-info" itemscope itemtype="https://schema.org/Organization">
+                    <div class="container">
+                        <p>
+                            <strong itemprop="legalName">REMOLQUES TITOS S.L.</strong>
+                            &nbsp;&middot;&nbsp; CIF / NIF: <span itemprop="taxID">B18392092</span>
+                            &nbsp;&middot;&nbsp; Forma jurídica: Sociedad Limitada
+                            &nbsp;&middot;&nbsp; Fecha de constitución: 22 de junio de 1995
+                            &nbsp;&middot;&nbsp; Registro: Registro Mercantil de Granada
+                            &nbsp;&middot;&nbsp; Estado: Viva
+                            &nbsp;&middot;&nbsp; Último cambio registral: 21 de diciembre de 2025
+                        </p>
+                        <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                            Domicilio social:
+                            <span itemprop="streetAddress">Avenida Los Emigrantes, s/n</span>,
+                            <span itemprop="postalCode">18560</span>
+                            <span itemprop="addressLocality">Guadahortuna</span>
+                            &nbsp;&middot;&nbsp; Provincia: <span itemprop="addressRegion">Granada</span> (Andalucía)
+                            &nbsp;&middot;&nbsp; <span itemprop="addressCountry">España</span>
+                        </p>
+                    </div>
+                </div>
 
             </footer><!-- .site-footer -->
 
@@ -3575,9 +3656,11 @@ Remolques Titos. Todos los derechos reservados.</p>
         </div>
     </div>
 
-    <script src="/assets/js/app.js"></script>
-    <script src="/assets/js/shop-bridge.js"></script>
-    <script src="/assets/js/nav-active.js"></script>
+    @php($asset = fn ($p) => $p.'?v='.(@filemtime(public_path($p)) ?: date('Ymd')))
+    <script src="/{{ $asset('assets/js/app.js') }}"></script>
+    <script src="/{{ $asset('assets/js/shop-bridge.js') }}"></script>
+    <script src="/{{ $asset('assets/js/nav-active.js') }}"></script>
+    @stack('scripts')
     @verbatim
     </body>
 

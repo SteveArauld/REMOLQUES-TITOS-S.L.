@@ -76,4 +76,18 @@
         </div>
     </form>
 </div>
+
+<style>
+/* Finalizar compra — responsive */
+@media (max-width: 900px){
+    .lv-scope .layout{display:block !important}
+    .lv-scope .layout > *{width:auto !important}
+    .lv-scope .form-grid{grid-template-columns:1fr !important}
+    .lv-scope .summary{position:static !important;margin-top:20px}
+}
+@media (max-width: 560px){
+    .lv-scope .panel{padding:16px}
+    .lv-scope .field--full,.lv-scope .field{grid-column:auto}
+}
+</style>
 @endsection

@@ -28,10 +28,6 @@
     <div class="tbay-filter">
         <div class="woocommerce-notices-wrapper"></div>
         <div class="main-filter d-flex justify-content-end ">
-            <div class="display-mode-warpper">
-                <a href="javascript:void(0);" id="display-mode-grid" class="display-mode-btn active" title="Grid"><i class="tb-icon tb-icon-grid"></i></a>
-                <a href="javascript:void(0);" id="display-mode-list" class="display-mode-btn list " title="List"><i class="tb-icon tb-icon-list"></i></a>
-            </div>
             <p class="woocommerce-result-count" role="status">{{ $products->total() }} resultados</p>
             <div class="tbay-ordering">
                 <span>Ordenar por:</span>
@@ -58,7 +54,7 @@
             </div>
         </div>
 
-        <nav class="woocommerce-pagination">{{ $products->onEachSide(1)->links() }}</nav>
+        <nav class="woocommerce-pagination">{{ $products->onEachSide(1)->links('vendor.pagination.woocommerce') }}</nav>
     @else
         <div class="woocommerce-info">No hay productos que coincidan con tu selección.</div>
     @endif
@@ -66,51 +62,13 @@
 </div>
 
 <style>
-/* La description courte n'apparaît qu'en mode liste (comme le site officiel) */
+/* La description courte n'est pas affichée sur la grille (comme le site officiel) */
 .display-products.products-grid .woocommerce-product-details__short-description { display: none; }
-.display-products.products-list .product-block .woocommerce-product-details__short-description { display: block; }
+
+/* Pas de padding latéral parasite sur la grille mobile */
+@media (max-width: 767px){
+    .display-products.products,
+    .archive-shop .display-products.products.products-grid{padding-left:0 !important;padding-right:0 !important}
+}
 </style>
-<script>
-(function () {
-    var wrap = document.querySelector('.display-products');
-    var row  = wrap && wrap.querySelector('.row');
-    var bGrid = document.getElementById('display-mode-grid');
-    var bList = document.getElementById('display-mode-list');
-    if (!wrap || !row || !bGrid || !bList) return;
-
-    var GRID = { xlgdesktop: '3', desktop: '3', desktopsmall: '3', tablet: '3', landscape: '3', mobile: '2' };
-
-    function apply(mode) {
-        var list = mode === 'list';
-        wrap.classList.toggle('products-list', list);
-        wrap.classList.toggle('products-grid', !list);
-        bList.classList.toggle('active', list);
-        bGrid.classList.toggle('active', !list);
-        row.querySelectorAll('.product-block').forEach(function (b) {
-            b.classList.toggle('list', list);
-            b.classList.toggle('grid', !list);
-            // En mode liste, les boutons d'action vont sous la description (dans .caption) ;
-            // en mode grille, ils reviennent en superposition sur l'image (.block-inner).
-            var gb = b.querySelector('.group-buttons');
-            var caption = b.querySelector('.caption');
-            var inner = b.querySelector('.block-inner');
-            if (gb) {
-                if (list && caption) caption.appendChild(gb);
-                else if (!list && inner) inner.appendChild(gb);
-            }
-        });
-        Object.keys(GRID).forEach(function (k) {
-            row.setAttribute('data-' + k, list ? '1' : GRID[k]);
-        });
-        try { localStorage.setItem('shopDisplayMode', mode); } catch (e) {}
-    }
-
-    bGrid.addEventListener('click', function () { apply('grid'); });
-    bList.addEventListener('click', function () { apply('list'); });
-
-    var saved;
-    try { saved = localStorage.getItem('shopDisplayMode'); } catch (e) {}
-    if (saved === 'list') apply('list');
-})();
-</script>
 @endsection

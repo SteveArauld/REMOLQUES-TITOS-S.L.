@@ -82,3 +82,37 @@
 		run();
 	}
 })();
+
+/* Barre de recherche mobile : ouverture/fermeture via le bouton loupe. */
+(function () {
+	'use strict';
+	function ready(fn) {
+		if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fn);
+		else fn();
+	}
+	ready(function () {
+		var wrap = document.querySelector('.topbar-device-mobile .search-device');
+		var btn = wrap && wrap.querySelector('.tr-search-toggle');
+		if (!wrap || !btn) return;
+
+		function close() {
+			wrap.classList.remove('is-open');
+			btn.setAttribute('aria-expanded', 'false');
+		}
+		btn.addEventListener('click', function (e) {
+			e.preventDefault();
+			var open = wrap.classList.toggle('is-open');
+			btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+			if (open) {
+				var input = wrap.querySelector('input[name="s"]');
+				if (input) setTimeout(function () { input.focus(); }, 30);
+			}
+		});
+		document.addEventListener('click', function (e) {
+			if (wrap.classList.contains('is-open') && !wrap.contains(e.target)) close();
+		});
+		document.addEventListener('keydown', function (e) {
+			if (e.key === 'Escape') close();
+		});
+	});
+})();
