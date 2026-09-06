@@ -1,0 +1,82 @@
+[
+  {
+    "id": 198,
+    "name": "Accesorio",
+    "slug": "accesorio",
+    "parent_id": null,
+    "description": "",
+    "product_count": 4,
+    "image": null,
+    "permalink": "/categoria-de-producto/accesorio/"
+  },
+  {
+    "id": 97,
+    "name": "Cortacéspedes",
+    "slug": "cortacespedes",
+    "parent_id": null,
+    "description": "",
+    "product_count": 22,
+    "image": null,
+    "permalink": "/categoria-de-producto/cortacespedes/"
+  },
+  {
+    "id": 100,
+    "name": "Desbrozadoras",
+    "slug": "desbrozadoras",
+    "parent_id": null,
+    "description": "",
+    "product_count": 9,
+    "image": null,
+    "permalink": "/categoria-de-producto/desbrozadoras/"
+  },
+  {
+    "id": 98,
+    "name": "Motoazadas",
+    "slug": "motoazadas",
+    "parent_id": null,
+    "description": "",
+    "product_count": 12,
+    "image": null,
+    "permalink": "/categoria-de-producto/motoazadas/"
+  },
+  {
+    "id": 185,
+    "name": "Remolque",
+    "slug": "remolque",
+    "parent_id": null,
+    "description": "",
+    "product_count": 12,
+    "image": null,
+    "permalink": "/categoria-de-producto/remolque/"
+  },
+  {
+    "id": 101,
+    "name": "Sopladores",
+    "slug": "sopladores",
+    "parent_id": null,
+    "description": "",
+    "product_count": 9,
+    "image": null,
+    "permalink": "/categoria-de-producto/sopladores/"
+  },
+  {
+    "id": 99,
+    "name": "Tractores",
+    "slug": "tractores",
+    "parent_id": null,
+    "description": "",
+    "product_count": 17,
+    "image": null,
+    "permalink": "/categoria-de-producto/tractores/"
+  },
+  {
+    "id": 96,
+    "name": "Trituradoras",
+    "slug": "trituradoras",
+    "parent_id": null,
+    "description": "",
+    "product_count": 10,
+    "image": null,
+    "permalink": "/categoria-de-producto/trituradoras/"
+  }
+]
