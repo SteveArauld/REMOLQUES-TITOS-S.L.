@@ -180,16 +180,20 @@ Andalucía, España.					</p>
 							<div class="elementor-icon-box-wrapper">
 
 						<div class="elementor-icon-box-icon">
-				<a href="https://wa.me/message/FH76WFZX74EUG1" class="elementor-icon" tabindex="-1">
+				<a href="https://wa.me/34683573516?text=Hola,%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20remolques." class="elementor-icon" tabindex="-1">
 				<i aria-hidden="true" class="tb-icon tb-icon-calling"></i>				</a>
 			</div>
 			
 						<div class="elementor-icon-box-content">
 
-				
+									<h3 class="elementor-icon-box-title">
+						<a href="https://wa.me/34683573516?text=Hola,%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20remolques." target="_blank" rel="noopener noreferrer">
+							WhatsApp / Teléfono						</a>
+					</h3>
+
 									<p class="elementor-icon-box-description">
-						<a href="https://wa.me/message/FH76WFZX74EUG1" target="_blank" rel="noopener noreferrer">
-  Pulse en WhatsApp
+						<a href="https://wa.me/34683573516?text=Hola,%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20remolques." target="_blank" rel="noopener noreferrer">
+  +34 683 57 35 16
 </a>					</p>
 				
 			</div>
@@ -214,10 +218,10 @@ Andalucía, España.					</p>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						contacto@remolquestitos.es					</p>
-				
+						contacto@remolquestitos.com					</p>
+
 			</div>
-			
+
 		</div>
 						</div>
 				</div>

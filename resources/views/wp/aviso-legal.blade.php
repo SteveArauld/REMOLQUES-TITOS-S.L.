@@ -56,7 +56,7 @@
 
 
 
-<li><strong>eMail</strong>:&nbsp;<a href="mailto:contacto@remolquestitos.es">contacto@remolquestitos.es</a></li>
+<li><strong>eMail</strong>:&nbsp;<a href="mailto:contacto@remolquestitos.com">contacto@remolquestitos.com</a></li>
 
 
 
@@ -64,7 +64,7 @@
 
 
 
-<li><strong>Nombre de Dominio</strong>: <a href="/">www.remolquestitos.es</a></li>
+<li><strong>Nombre de Dominio</strong>: <a href="/">www.remolquestitos.com</a></li>
 
 
 

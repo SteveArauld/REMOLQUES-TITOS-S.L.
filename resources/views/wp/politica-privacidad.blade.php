@@ -31,7 +31,7 @@
 
 
 
-<p class="wp-block-paragraph">Correo electrónico: contacto@remolquestitos.es</p>
+<p class="wp-block-paragraph">Correo electrónico: contacto@remolquestitos.com</p>
 
 
 

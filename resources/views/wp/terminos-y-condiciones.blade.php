@@ -34,5 +34,6 @@
 				</div>
 					
 @endverbatim
+@include('partials.legal-company-info')
 </div>
 @endsection

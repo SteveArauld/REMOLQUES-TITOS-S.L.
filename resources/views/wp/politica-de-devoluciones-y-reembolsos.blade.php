@@ -27,7 +27,7 @@
 
 
 
-<p class="wp-block-paragraph">Los artículos deben ser devueltos en la misma condición en la que fueron recibidos y en su envoltorio original. Los artículos se inspeccionarán al ser devueltos. Si consideramos a los artículos invendibles, no se reembolsarán ni devolverán.<br>En el caso poco probable de que reciba un producto fallado o dañado, contáctenos de forma inmediata a contacto@remolquestitos.es antes de devolver el artículo o artículos y lo ayudaremos con su consulta.</p>
+<p class="wp-block-paragraph">Los artículos deben ser devueltos en la misma condición en la que fueron recibidos y en su envoltorio original. Los artículos se inspeccionarán al ser devueltos. Si consideramos a los artículos invendibles, no se reembolsarán ni devolverán.<br>En el caso poco probable de que reciba un producto fallado o dañado, contáctenos de forma inmediata a contacto@remolquestitos.com antes de devolver el artículo o artículos y lo ayudaremos con su consulta.</p>
 
 
 
@@ -35,7 +35,7 @@
 
 
 
-<p class="wp-block-paragraph"><br>1. Infórmenos sobre su devolución a contacto@remolquestitos.es<br>2. Por favor adjunte toda la documentación en su envío. Los clientes internacionales/de países fuera de la UE deben colocar un comprobante de empaque y factura de su pedido en un sobre de plástico y adherirlo al paquete.<br>3. Asegúrese de que el artículo o artículos estén empacados en su envoltorio original<br>4. Lleve su paquete a la oficina postal más cercana. La dirección de envío es: Avenida Los Emigrantes, s/n<br>18560 Guadahortuna (Granada), Andalucía, España.</p>
+<p class="wp-block-paragraph"><br>1. Infórmenos sobre su devolución a contacto@remolquestitos.com<br>2. Por favor adjunte toda la documentación en su envío. Los clientes internacionales/de países fuera de la UE deben colocar un comprobante de empaque y factura de su pedido en un sobre de plástico y adherirlo al paquete.<br>3. Asegúrese de que el artículo o artículos estén empacados en su envoltorio original<br>4. Lleve su paquete a la oficina postal más cercana. La dirección de envío es: Avenida Los Emigrantes, s/n<br>18560 Guadahortuna (Granada), Andalucía, España.</p>
 
 
 
@@ -51,8 +51,9 @@
 
 
 
-<p class="wp-block-paragraph"><br><strong>Pago mediante transferencia bancaria or <strong>Contrarrembolso</strong>:</strong><br>Si ha realizado una transferencia bancaria para realizar el pago, contáctenos a contacto@remolquestitos.es y proporcione sus detalles de cuenta bancaria: beneficiario, número de IBAN y código SWIFT. Tenga en cuenta que los reembolsos mediante transferencia bancaria suelen reflejarse dentro de los 5-7 días hábiles.</p>
+<p class="wp-block-paragraph"><br><strong>Pago mediante transferencia bancaria or <strong>Contrarrembolso</strong>:</strong><br>Si ha realizado una transferencia bancaria para realizar el pago, contáctenos a contacto@remolquestitos.com y proporcione sus detalles de cuenta bancaria: beneficiario, número de IBAN y código SWIFT. Tenga en cuenta que los reembolsos mediante transferencia bancaria suelen reflejarse dentro de los 5-7 días hábiles.</p>
 			
 @endverbatim
+@include('partials.legal-company-info')
 </div>
 @endsection

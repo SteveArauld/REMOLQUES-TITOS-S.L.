@@ -107,12 +107,13 @@
 
 
 
-<p class="wp-block-paragraph">En caso de que tu pedido llegue dañado, por favor envíanos un correo electrónico lo antes posible a contacto@remolquestitos.es con tu número de pedido y una foto del artículo. Trataremos estos casos de manera individual, pero haremos todo lo posible por encontrar una solución satisfactoria.</p>
+<p class="wp-block-paragraph">En caso de que tu pedido llegue dañado, por favor envíanos un correo electrónico lo antes posible a contacto@remolquestitos.com con tu número de pedido y una foto del artículo. Trataremos estos casos de manera individual, pero haremos todo lo posible por encontrar una solución satisfactoria.</p>
 
 
 
-<p class="wp-block-paragraph">Si tienes alguna otra pregunta, no dudes en contactarnos a contacto@remolquestitos.es.</p>
+<p class="wp-block-paragraph">Si tienes alguna otra pregunta, no dudes en contactarnos a contacto@remolquestitos.com.</p>
 			
 @endverbatim
+@include('partials.legal-company-info')
 </div>
 @endsection

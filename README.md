@@ -23,7 +23,7 @@
 | Registro | Registro Mercantil de Granada · estado: activa · última modificación 21/12/2025 |
 | Domicilio | Avenida Los Emigrantes, s/n · 18560 Guadahortuna (Granada) · Andalucía · España |
 | Objeto social | Fabricación de remolques y de maquinaria agrícola; reparación de maquinaria agrícola, remolques y vehículos. CNAE 4520; actividad principal: fabricación de remolques agrícolas. |
-| Web / email | www.remolquestitos.es · contacto@remolquestitos.es |
+| Web / email | www.remolquestitos.com · contacto@remolquestitos.com |
 
 Estos datos figuran en el pie de página, en la página de **Contacto** y, de forma
 completa, en el **Aviso Legal** y la **Política de Privacidad**.

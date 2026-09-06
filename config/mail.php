@@ -122,6 +122,6 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'admin_address' => env('MAIL_ADMIN_ADDRESS', env('MAIL_FROM_ADDRESS', 'admin@remolquestitos.es')),
+    'admin_address' => env('MAIL_ADMIN_ADDRESS', env('MAIL_FROM_ADDRESS', 'admin@remolquestitos.com')),
 
 ];
