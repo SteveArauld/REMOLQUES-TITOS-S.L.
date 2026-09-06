@@ -2279,7 +2279,7 @@
 @endverbatim
 {{ date('Y') }}
 @verbatim
-Remolques Titos. Todos los derechos reservados.<br><small style="opacity:.8">REMOLQUES TITOS S.L. &middot; CIF B18392092 &middot; Inscrita en el Registro Mercantil de Granada &middot; Avenida Los Emigrantes, s/n, 18560 Guadahortuna (Granada), España</small></p>
+Remolques Titos. Todos los derechos reservados.</p>
                                         </div>
                                     </div>
                                 </div>
