@@ -112,7 +112,7 @@
             </ul>
         </div>
     </div>
-    <div class="footer__bottom">© {{ date('Y') }} REMOLQUES TITOS S.L. · CIF B18392092 · Inscrita en el Registro Mercantil de Granada. Todos los derechos reservados.</div>
+    <div class="footer__bottom">© {{ date('Y') }} Remolques Titos. Todos los derechos reservados.</div>
 </footer>
 
 <script src="{{ asset('assets/js/app.js') }}"></script>
