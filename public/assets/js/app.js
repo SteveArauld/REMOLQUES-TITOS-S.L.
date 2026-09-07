@@ -147,3 +147,61 @@
     render();
   }
 })();
+
+/* --- Productos vistos recientemente --- */
+(function () {
+  'use strict';
+
+  var KEY = 'tr_recent_v1';
+  var MAX = 12;
+
+  function read() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || []; }
+    catch (e) { return []; }
+  }
+  function write(list) {
+    try { localStorage.setItem(KEY, JSON.stringify(list.slice(0, MAX))); }
+    catch (e) {}
+  }
+
+  /* 1. Registrar el producto de la ficha actual */
+  var cur = document.getElementById('tr-recent-current');
+  if (cur) {
+    try {
+      var p = JSON.parse(cur.textContent);
+      if (p && p.url) {
+        var list = read().filter(function (x) { return x.url !== p.url; });
+        list.unshift(p);
+        write(list);
+      }
+    } catch (e) {}
+  }
+
+  /* 2. Pintar el widget de la cabecera */
+  var box = document.querySelector('.product-recently-viewed-header .content-view');
+  if (!box) return;
+  var wrap = box.querySelector('.list-recent') || box;
+
+  var curUrl = null;
+  try { curUrl = cur ? JSON.parse(cur.textContent).url : null; } catch (e) {}
+
+  var items = read().filter(function (x) { return x.url !== curUrl; });
+
+  if (!items.length) {
+    box.classList.add('empty');
+    wrap.innerHTML = 'No ha visto ningún artículo recientemente.';
+    return;
+  }
+
+  box.classList.remove('empty');
+  wrap.innerHTML = items.map(function (x) {
+    var price = x.price
+      ? '<span class="rv-price">' + x.price +
+        (x.old_price ? ' <del>' + x.old_price + '</del>' : '') + '</span>'
+      : '';
+    return '<a class="rv-item" href="' + x.url + '" title="' + (x.name || '').replace(/"/g, '&quot;') + '">' +
+      '<span class="rv-thumb"><img src="' + (x.image || '') + '" alt="" loading="lazy"></span>' +
+      '<span class="rv-info"><span class="rv-name">' + (x.name || '') + '</span>' + price + '</span>' +
+      '</a>';
+  }).join('');
+})();

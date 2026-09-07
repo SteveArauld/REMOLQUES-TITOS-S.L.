@@ -1037,6 +1037,19 @@
         .header-phone i{vertical-align:middle}
         .footer-phone a{color:#0d8dfd}
 
+        /* ===== Productos vistos recientemente ===== */
+        .product-recently-viewed-header .header-title{font-size:14px;font-weight:700;margin:0 0 10px}
+        .product-recently-viewed-header .content-view.empty .list-recent{font-size:12px;color:#888}
+        .product-recently-viewed-header .list-recent{display:flex;flex-direction:column;gap:10px;max-height:340px;overflow-y:auto}
+        .product-recently-viewed-header .rv-item{display:flex;gap:10px;align-items:center;text-decoration:none;color:inherit}
+        .product-recently-viewed-header .rv-thumb{flex:0 0 48px;width:48px;height:48px;border:1px solid #e2e2e2;background:#fff;border-radius:4px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+        .product-recently-viewed-header .rv-thumb img{width:100%;height:100%;object-fit:contain}
+        .product-recently-viewed-header .rv-info{display:flex;flex-direction:column;min-width:0}
+        .product-recently-viewed-header .rv-name{font-size:12px;line-height:1.35;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+        .product-recently-viewed-header .rv-price{font-size:12px;color:var(--tb-theme-color,#24c200);font-weight:700}
+        .product-recently-viewed-header .rv-price del{color:#999;font-weight:400;margin-left:4px}
+        .product-recently-viewed-header .rv-item:hover .rv-name{color:var(--tb-theme-color,#24c200)}
+
         /* ===== Bouton flottant WhatsApp ===== */
         .tr-wa{position:fixed;right:20px;bottom:20px;z-index:99999;display:flex;align-items:center;justify-content:center;
             width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;box-shadow:0 6px 20px rgba(0,0,0,.25);

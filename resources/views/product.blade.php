@@ -97,6 +97,18 @@
 
 <script type="application/ld+json">{!! json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}</script>
 
+@php
+    $trRecent = json_encode([
+        'slug'      => $product->slug,
+        'url'       => route('product.show', $product->slug),
+        'name'      => $seoName,
+        'image'     => $galleryUrls->first(),
+        'price'     => number_format((float) $product->price, 2, ',', '.').' €',
+        'old_price' => $product->has_discount ? number_format((float) $product->regular_price, 2, ',', '.').' €' : null,
+    ], JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);
+@endphp
+<script type="application/json" id="tr-recent-current">{!! $trRecent !!}</script>
+
 <div class="woocommerce singular-shop">
     @if (session('status'))
         <div class="woocommerce-notices-wrapper"><div class="woocommerce-message" role="alert">{{ session('status') }}</div></div>
