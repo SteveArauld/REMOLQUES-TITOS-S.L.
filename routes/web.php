@@ -12,13 +12,30 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ShopController;
+use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\WishlistController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
+
 Route::get('/tienda', [ShopController::class, 'index'])->name('shop');
 Route::get('/categoria-de-producto/{category:slug}', [ShopController::class, 'category'])->name('category');
+
+// Redirections 301 : anciens slugs « john-deers » -> « john-deere » (rebranding SEO).
+foreach ([
+    'minitractores-john-deers-x380'   => 'minitractores-john-deere-x380',
+    'minitractores-john-deers-x350'   => 'minitractores-john-deere-x350',
+    'cortacesped-john-deers-x107'     => 'cortacesped-john-deere-x107',
+    'tractor-john-deers-5075gv'       => 'tractor-john-deere-5075gv',
+    'tractor-john-deers-5115gv'       => 'tractor-john-deere-5115gv',
+    'tractor-5050e-john-deers'        => 'tractor-5050e-john-deere',
+    'tractores-john-deers-5067e'      => 'tractores-john-deere-5067e',
+] as $old => $new) {
+    Route::permanentRedirect("/producto/{$old}", "/producto/{$new}");
+    Route::permanentRedirect("/carrito/agregar/{$old}", "/carrito/agregar/{$new}");
+}
 
 Route::get('/producto/{product:slug}', [ProductController::class, 'show'])->name('product.show');
 Route::get('/producto/{product:slug}/quickview', [ProductController::class, 'quickView'])->name('product.quickview');

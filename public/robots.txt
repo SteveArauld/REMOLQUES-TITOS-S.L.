@@ -1,2 +1,8 @@
 User-agent: *
-Disallow:
+Disallow: /carrito
+Disallow: /checkout
+Disallow: /mi-cuenta
+Disallow: /wp-admin/
+Disallow: /feed/
+
+Sitemap: https://remolquestitos.com/sitemap.xml

@@ -97,7 +97,7 @@ class Product extends Model
 
     /** Marques fabricant reconnues dans le nom/description. */
     private const KNOWN_BRANDS = [
-        'John Deere', 'John Deers', 'Stihl', 'Honda', 'Gardena', 'Bosch', 'Makita', 'Einhell',
+        'John Deere', 'Stihl', 'Honda', 'Gardena', 'Bosch', 'Makita', 'Einhell',
         'Husqvarna', 'Kawasaki', 'Anova', 'Greencut', 'Worx', 'Ryobi', 'Stiga', 'Viking',
         'Briggs & Stratton', 'Loncin', 'Kubota', 'McCulloch', 'Alpina', 'Grillo', 'BCS', 'Ducati',
     ];
@@ -116,7 +116,7 @@ class Product extends Model
         $haystack = $this->name.' '.$this->slug.' '.strip_tags((string) $this->short_description);
         foreach (self::KNOWN_BRANDS as $brand) {
             if (stripos($haystack, $brand) !== false || stripos($haystack, str_replace(' ', '', $brand)) !== false) {
-                return $brand === 'John Deers' ? 'John Deere' : $brand;
+                return $brand;
             }
         }
 

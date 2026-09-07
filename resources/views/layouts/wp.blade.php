@@ -16,19 +16,37 @@
 
 
         <link rel="stylesheet" href="/wp-content/fonts/fonts.css" media="all" />
-        <title>Inicio - Remolques Titos</title>
-        <link rel="canonical" href="/" />
+@endverbatim
+        {{-- ===== SEO par page (title / meta / canonical / Open Graph) ===== --}}
+        @php
+            $seoTitle = trim($__env->yieldContent('meta_title', 'Inicio - Remolques Titos'));
+            $seoDesc  = trim($__env->yieldContent('meta_description', 'Fabricación y venta de remolques agrícolas, tractores, minitractores y maquinaria de jardín. Remolques Titos, fabricante en Guadahortuna (Granada) desde 1995.'));
+            $seoCanonical = trim($__env->yieldContent('canonical', url()->current()));
+            $seoImage = trim($__env->yieldContent('og_image', url('/wp-content/uploads/2024/03/Tractor-1.png')));
+            $seoType  = trim($__env->yieldContent('og_type', 'website'));
+        @endphp
+        <title>{{ $seoTitle }}</title>
+        <meta name="description" content="{{ $seoDesc }}" />
+        <link rel="canonical" href="{{ $seoCanonical }}" />
         <meta property="og:locale" content="es_ES" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Inicio - Remolques Titos" />
-        <meta property="og:description"
-            content="Superoferta del día Quick View Ajouter à la liste de souhaits Ajouter au panier -25% Tractor TC 112 Note 4.60 sur 5 58 2,380.00&euro;Le prix actuel est : 2,380.00&euro;.3,180.00&euro; Le prix initial était : 3,180.00&euro;. IVA INCLUIDO Quick View Ajouter à la liste de souhaits Ajouter au panier -22% Minitractores John Deers X350 Note 4.09 sur 5 &hellip; Read More Inicio" />
-        <meta property="og:url" content="/" />
+        <meta property="og:type" content="{{ $seoType }}" />
+        <meta property="og:title" content="{{ $seoTitle }}" />
+        <meta name="twitter:title" content="{{ $seoTitle }}" />
+        <meta name="twitter:description" content="{{ $seoDesc }}" />
+        <meta name="twitter:image" content="{{ $seoImage }}" />
+        @yield('head_extra')
+        <meta property="og:description" content="{{ $seoDesc }}" />
+        <meta property="og:url" content="{{ $seoCanonical }}" />
         <meta property="og:site_name" content="Remolques Titos" />
-        <meta property="article:modified_time" content="2025-09-10T08:53:02+00:00" />
-        <meta property="og:image" content="/wp-content/uploads/2024/03/Tractor-1.png" />
+        <meta property="og:image" content="{{ $seoImage }}" />
         <meta name="twitter:card" content="summary_large_image" />
+@endverbatim
+        @if(trim($__env->yieldContent('meta_title','Inicio - Remolques Titos')) === 'Inicio - Remolques Titos')
+@verbatim
         <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"\/","url":"\/","name":"Inicio - Remolques Titos","isPartOf":{"@id":"\/#website"},"about":{"@id":"\/#organization"},"primaryImageOfPage":{"@id":"\/#primaryimage"},"image":{"@id":"\/#primaryimage"},"thumbnailUrl":"\/wp-content\/uploads\/2024\/03\/Tractor-1.png","datePublished":"2020-12-22T01:46:09+00:00","dateModified":"2025-09-10T08:53:02+00:00","breadcrumb":{"@id":"\/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["\/"]}]},{"@type":"ImageObject","inLanguage":"es","@id":"\/#primaryimage","url":"\/wp-content\/uploads\/2024\/03\/Tractor-1.png","contentUrl":"\/wp-content\/uploads\/2024\/03\/Tractor-1.png","width":390,"height":460},{"@type":"BreadcrumbList","@id":"\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio"}]},{"@type":"WebSite","@id":"\/#website","url":"\/","name":"Remolques Titos","description":"","publisher":{"@id":"\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"es"},{"@type":"Organization","@id":"\/#organization","name":"Remolques Titos","url":"\/","logo":{"@type":"ImageObject","inLanguage":"es","@id":"\/#\/schema\/logo\/image\/","url":"\/assets\/img\/logo.png","contentUrl":"\/assets\/img\/logo.png","width":567,"height":440,"caption":"Remolques Titos"},"image":{"@id":"\/#\/schema\/logo\/image\/"}}]}</script>
+@endverbatim
+        @endif
+@verbatim
 
 
 
@@ -2304,6 +2322,9 @@
                                                         <li id="menu-item-5995"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5995">
                                                             <a href="/pagina/politica-de-entregas">Política de Envío</a>
+                                                        </li>
+                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                                            <a href="/pagina/gastos-y-plazos-de-envio">Gastos y plazos de envío</a>
                                                         </li>
                                                         <li id="menu-item-5989"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-5989">

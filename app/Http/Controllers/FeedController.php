@@ -17,11 +17,14 @@ use Illuminate\Support\Str;
 class FeedController extends Controller
 {
     private const GNS = 'http://base.google.com/ns/1.0';
-    private const CACHE_KEY = 'feed:google-merchant:v2';
+    private const CACHE_KEY = 'feed:google-merchant:v3';
     private const CURRENCY = 'EUR';
     private const SHIP_COUNTRY = 'ES';
-    private const FREE_SHIP_FROM = 500.0;
-    private const SHIP_COST = 49.90;
+    private const SHIP_COST = 0.0;                 // Envío gratis a toda España.
+    private const SHIP_MIN_HANDLING_DAYS = 1;      // Preparación del pedido.
+    private const SHIP_MAX_HANDLING_DAYS = 2;
+    private const SHIP_MIN_TRANSIT_DAYS = 2;       // Página « Gastos y plazos de envío ».
+    private const SHIP_MAX_TRANSIT_DAYS = 5;
 
     /** Affiche le flux dans le navigateur. */
     public function display(Request $request)
@@ -143,12 +146,17 @@ class FeedController extends Controller
             $this->text($doc, $item, 'g:product_type', $p->categories->pluck('name')->join(' > '));
         }
 
-        // Livraison ES (alignée sur CartService).
+        // Livraison ES (alignée sur CartService et la page « Gastos y plazos de envío »).
         $shipping = $doc->createElement('g:shipping');
         $this->plain($doc, $shipping, 'g:country', self::SHIP_COUNTRY);
         $this->plain($doc, $shipping, 'g:service', 'Estándar');
-        $this->plain($doc, $shipping, 'g:price', $this->money($price >= self::FREE_SHIP_FROM ? 0.0 : self::SHIP_COST));
+        $this->plain($doc, $shipping, 'g:price', $this->money(self::SHIP_COST));
         $item->appendChild($shipping);
+
+        $this->plain($doc, $item, 'g:min_handling_time', (string) self::SHIP_MIN_HANDLING_DAYS);
+        $this->plain($doc, $item, 'g:max_handling_time', (string) self::SHIP_MAX_HANDLING_DAYS);
+        $this->plain($doc, $item, 'g:min_transit_time', (string) self::SHIP_MIN_TRANSIT_DAYS);
+        $this->plain($doc, $item, 'g:max_transit_time', (string) self::SHIP_MAX_TRANSIT_DAYS);
 
         if ($p->weight && (float) $p->weight > 0) {
             $this->plain($doc, $item, 'g:shipping_weight', ((float) $p->weight).' kg');

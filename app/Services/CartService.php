@@ -84,15 +84,10 @@ class CartService
         return round(collect($this->raw())->sum(fn ($l) => $l['price'] * $l['qty']), 2);
     }
 
-    /** Frais de port : gratuits dès 500 €, sinon 49,90 €. Panier vide => 0. */
+    /** Frais de port : envío gratis à toute l'Espagne (port inclus dans les prix). */
     public function shipping(): float
     {
-        $sub = $this->subtotal();
-        if ($sub <= 0 || $sub >= 500) {
-            return 0.0;
-        }
-
-        return 49.90;
+        return 0.0;
     }
 
     public function total(): float

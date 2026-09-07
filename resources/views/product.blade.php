@@ -2,6 +2,21 @@
 
 @section('body_class', 'wp-singular single single-product woocommerce woocommerce-page woocommerce-js singular-shop tbay-body-woocommerce')
 
+@php
+    $seoName = trim(preg_replace('/\s+/u', ' ', $product->name));
+    $seoBrand = $product->merchant_brand;
+    $seoPriceTxt = number_format((float) $product->price, 2, ',', '.').' €';
+    $seoRawDesc = $product->short_description
+        ? trim(preg_replace('/\s+/u', ' ', strip_tags($product->short_description)))
+        : $product->merchant_description;
+@endphp
+
+@section('meta_title', ($seoBrand && stripos($seoName, $seoBrand) === false ? $seoBrand.' ' : '').$seoName.' | '.$seoPriceTxt.' - Remolques Titos')
+@section('meta_description', \Illuminate\Support\Str::limit($seoRawDesc !== '' ? $seoRawDesc : ($seoName.' al mejor precio en Remolques Titos. Envío gratis a toda España. IVA incluido.'), 160))
+@section('canonical', route('product.show', $product->slug))
+@section('og_type', 'product')
+@section('og_image', $product->images->isNotEmpty() ? asset($product->images->first()->path) : $product->thumb_url)
+
 @section('breadcrumb')
 <section id="tbay-breadcrumb" style="background-color:#f3f3f3" class="tbay-breadcrumb breadcrumbs-color active-nav-right">
     <div class="container">
@@ -45,26 +60,38 @@
         'name'        => $product->name,
         'description' => $product->merchant_description,
         'image'       => $galleryUrls->all(),
-        'sku'         => (string) ($product->sku ?: $product->id),
-        'mpn'         => (string) ($product->sku ?: $product->slug),
         'brand'       => ['@type' => 'Brand', 'name' => $product->merchant_brand],
         'offers'      => $ldOffer,
     ];
-    if (($product->review_count ?? 0) > 0 && $product->average_rating) {
+    // Identifiants : uniquement s'ils sont réels (MPN = SKU fabricant, GTIN si renseigné).
+    if (filled($product->sku)) {
+        $ld['sku'] = (string) $product->sku;
+        $ld['mpn'] = (string) $product->sku;
+    }
+    if (filled($product->gtin ?? null)) {
+        $ld['gtin'] = (string) $product->gtin;
+    }
+
+    // Avis : on ne garde que les avis approuvés ayant un texte réel (pas de "notes vides").
+    $ldReviews = $product->reviews
+        ->filter(fn ($r) => trim(strip_tags((string) ($r->review_html ?: $r->review))) !== '' && (int) $r->rating > 0)
+        ->values();
+
+    if ($ldReviews->isNotEmpty() && $product->average_rating) {
         $ld['aggregateRating'] = [
             '@type'       => 'AggregateRating',
             'ratingValue' => number_format((float) $product->average_rating, 2, '.', ''),
-            'reviewCount' => (int) $product->reviews->count(),
+            'reviewCount' => $ldReviews->count(),
+            'bestRating'  => 5,
+            'worstRating' => 1,
         ];
-        if ($product->reviews->isNotEmpty()) {
-            $ld['review'] = $product->reviews->take(5)->map(fn ($r) => [
-                '@type'         => 'Review',
-                'reviewRating'  => ['@type' => 'Rating', 'ratingValue' => (int) $r->rating, 'bestRating' => 5],
-                'author'        => ['@type' => 'Person', 'name' => $r->reviewer],
-                'reviewBody'    => \Illuminate\Support\Str::limit(strip_tags((string) ($r->review_html ?: $r->review)), 500),
-                'datePublished' => optional($r->reviewed_at)->format('Y-m-d'),
-            ])->all();
-        }
+        $ld['review'] = $ldReviews->take(5)->map(fn ($r) => [
+            '@type'         => 'Review',
+            'reviewRating'  => ['@type' => 'Rating', 'ratingValue' => (int) $r->rating, 'bestRating' => 5],
+            'author'        => ['@type' => 'Person', 'name' => $r->reviewer],
+            'reviewBody'    => \Illuminate\Support\Str::limit(strip_tags((string) ($r->review_html ?: $r->review)), 500),
+            'datePublished' => optional($r->reviewed_at)->format('Y-m-d'),
+        ])->all();
     }
 @endphp
 

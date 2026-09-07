@@ -60,7 +60,7 @@
 								data-frame_1="x:0,0,0px,0px;y:0,0,0px,0px;st:610;sR:610;"
 								data-frame_999="o:0;st:w;sR:8090;"
 								style="z-index:7;font-family:'Rubik';"
-							>John Deers X350 
+							>John Deere X350 
 							</rs-layer><!--
 
 							--><rs-layer
@@ -94,7 +94,7 @@
 							--><a
 								id="slider-1-slide-1-layer-5" 
 								class="rs-layer rev-btn"
-								href="/producto/minitractores-john-deers-x350" target="_blank" rel="nofollow noopener"
+								href="/producto/minitractores-john-deere-x350" target="_blank" rel="nofollow noopener"
 								data-type="button"
 								data-xy="xo:60px,60px,60px,160px;yo:340px,340px,340px,408px;"
 								data-text="w:normal;s:14;l:22;fw:500;"
@@ -363,8 +363,8 @@
 	<div class="product-content">
 				<div class="block-inner">
 			<figure class="image">
-				<a title="Minitractores John Deers X350" href="/producto/minitractores-john-deers-x350" class="product-image">
-					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/1-5-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Minitractores John Deers X350" />				</a>
+				<a title="Minitractores John Deere X350" href="/producto/minitractores-john-deere-x350" class="product-image">
+					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/1-5-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Minitractores John Deere X350" />				</a>
 				
 							
 						</figure>
@@ -403,7 +403,7 @@
 			<!-- COUNT TEXT -->
 			
 			</div>
-</div><div class="add-cart" title="Añadir al carrito"><a href="/carrito/agregar/minitractores-john-deers-x350" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_6254" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="6254" data-product_sku="" aria-label="Añadir al carrito: &ldquo;Minitractores John Deers X350&rdquo;" rel="nofollow" data-success_message="«Minitractores John Deers X350» se ha añadido a tu carrito" role="button"><i class="tb-icon tb-icon-shopping-bag"></i><span class="title-cart">Añadir al carrito</span></a>			<span id="woocommerce_loop_add_to_cart_link_describedby_6254" class="screen-reader-text">
+</div><div class="add-cart" title="Añadir al carrito"><a href="/carrito/agregar/minitractores-john-deere-x350" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_6254" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="6254" data-product_sku="" aria-label="Añadir al carrito: &ldquo;Minitractores John Deere X350&rdquo;" rel="nofollow" data-success_message="«Minitractores John Deere X350» se ha añadido a tu carrito" role="button"><i class="tb-icon tb-icon-shopping-bag"></i><span class="title-cart">Añadir al carrito</span></a>			<span id="woocommerce_loop_add_to_cart_link_describedby_6254" class="screen-reader-text">
 					</span>
 	</div>		    </div>
 		</div>
@@ -414,7 +414,7 @@
 		
 		<div class="caption">
 			
-			        <h3 class="name "><a href="/producto/minitractores-john-deers-x350">Minitractores John Deers X350</a></h3>
+			        <h3 class="name "><a href="/producto/minitractores-john-deere-x350">Minitractores John Deere X350</a></h3>
         				<div class="rating">
 					<div class="star-rating" role="img" aria-label="Valorado con 4.09 de 5"><span style="width:81.8%">Valorado con <strong class="rating">4.09</strong> de 5</span></div>			<div class="count"><span>107</span></div>
 			</div>
@@ -661,20 +661,20 @@
         </div>
 
             <div class="item">
-			<div class="products-grid product type-product post-6251 status-publish last instock product_cat-cortacespedes product_tag-cortacesped-john-deers-x107 product_tag-tractor has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+			<div class="products-grid product type-product post-6251 status-publish last instock product_cat-cortacespedes product_tag-cortacesped-john-deere-x107 product_tag-tractor has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
 			<div class="product-block product vertical " data-product-id="6251">
 	<div class="product-content">
 		
 		<div class="block-inner">
 			<figure class="image">
-				<a title="Cortacesped John Deers X107" href="/producto/cortacesped-john-deers-x107" class="product-image">
-					<img loading="lazy" decoding="async" width="1000" height="1000" src="/wp-content/uploads/2024/03/Cortacesped-John-Deers-X107.png" class="attachment-full size-full" alt="Cortacesped John Deers X107" />				</a>
+				<a title="Cortacesped John Deere X107" href="/producto/cortacesped-john-deere-x107" class="product-image">
+					<img loading="lazy" decoding="async" width="1000" height="1000" src="/wp-content/uploads/2024/03/Cortacesped-John-Deers-X107.png" class="attachment-full size-full" alt="Cortacesped John Deere X107" />				</a>
 								
 	<span class="onsale"><span class="saled">-10%</span></span>
 				</figure>
 		</div>
 		<div class="caption">
-						        <h3 class="name "><a href="/producto/cortacesped-john-deers-x107">Cortacesped John Deers X107</a></h3>
+						        <h3 class="name "><a href="/producto/cortacesped-john-deere-x107">Cortacesped John Deere X107</a></h3>
         			
 			
 				<div class="rating">
@@ -1361,20 +1361,20 @@
     <div class="products row grid products product-style-vertical" data-xlgdesktop="2" data-desktop="2" data-desktopsmall="1" data-tablet="1" data-landscape="1" data-mobile="1">
 
             <div class="item">
-			<div class="products-grid product type-product post-6012 status-publish instock product_cat-tractores product_tag-tractores-john-deers-5067e has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+			<div class="products-grid product type-product post-6012 status-publish instock product_cat-tractores product_tag-tractores-john-deere-5067e has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
 			<div class="product-block product vertical " data-product-id="6012">
 	<div class="product-content">
 		
 		<div class="block-inner">
 			<figure class="image">
-				<a title="Tractores John Deers 5067E" href="/producto/tractores-john-deers-5067e" class="product-image">
-					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/John-Deers-Tractor-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractores John Deers 5067E" />				</a>
+				<a title="Tractores John Deere 5067E" href="/producto/tractores-john-deere-5067e" class="product-image">
+					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/John-Deers-Tractor-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractores John Deere 5067E" />				</a>
 								
 	<span class="onsale"><span class="saled">-33%</span></span>
 				</figure>
 		</div>
 		<div class="caption">
-						        <h3 class="name "><a href="/producto/tractores-john-deers-5067e">Tractores John Deers 5067E</a></h3>
+						        <h3 class="name "><a href="/producto/tractores-john-deere-5067e">Tractores John Deere 5067E</a></h3>
         			
 			
 			
@@ -1390,20 +1390,20 @@
         </div>
 
             <div class="item">
-			<div class="products-grid product type-product post-6020 status-publish last instock product_cat-tractores product_tag-tractor-5050e-john-deers has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+			<div class="products-grid product type-product post-6020 status-publish last instock product_cat-tractores product_tag-tractor-5050e-john-deere has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
 			<div class="product-block product vertical " data-product-id="6020">
 	<div class="product-content">
 		
 		<div class="block-inner">
 			<figure class="image">
-				<a title="Tractor 5050E John Deers" href="/producto/tractor-5050e-john-deers" class="product-image">
-					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/John-Deers-Tractor-5050E-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractor 5050E John Deers" />				</a>
+				<a title="Tractor 5050E John Deere" href="/producto/tractor-5050e-john-deere" class="product-image">
+					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/John-Deers-Tractor-5050E-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractor 5050E John Deere" />				</a>
 								
 	<span class="onsale"><span class="saled">-20%</span></span>
 				</figure>
 		</div>
 		<div class="caption">
-						        <h3 class="name "><a href="/producto/tractor-5050e-john-deers">Tractor 5050E John Deers</a></h3>
+						        <h3 class="name "><a href="/producto/tractor-5050e-john-deere">Tractor 5050E John Deere</a></h3>
         			
 			
 			
@@ -1419,20 +1419,20 @@
         </div>
 
             <div class="item">
-			<div class="products-grid product type-product post-6022 status-publish first instock product_cat-tractores product_tag-tractor-john-deers-5115gv has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+			<div class="products-grid product type-product post-6022 status-publish first instock product_cat-tractores product_tag-tractor-john-deere-5115gv has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
 			<div class="product-block product vertical " data-product-id="6022">
 	<div class="product-content">
 		
 		<div class="block-inner">
 			<figure class="image">
-				<a title="Tractor John Deers 5115GV" href="/producto/tractor-john-deers-5115gv" class="product-image">
-					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/5115GV-Tractor-P-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractor John Deers 5115GV" />				</a>
+				<a title="Tractor John Deere 5115GV" href="/producto/tractor-john-deere-5115gv" class="product-image">
+					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/5115GV-Tractor-P-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractor John Deere 5115GV" />				</a>
 								
 	<span class="onsale"><span class="saled">-27%</span></span>
 				</figure>
 		</div>
 		<div class="caption">
-						        <h3 class="name "><a href="/producto/tractor-john-deers-5115gv">Tractor John Deers 5115GV</a></h3>
+						        <h3 class="name "><a href="/producto/tractor-john-deere-5115gv">Tractor John Deere 5115GV</a></h3>
         			
 			
 			
@@ -1448,20 +1448,20 @@
         </div>
 
             <div class="item">
-			<div class="products-grid product type-product post-6027 status-publish instock product_cat-tractores product_tag-tractor-john-deers-5075gv has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+			<div class="products-grid product type-product post-6027 status-publish instock product_cat-tractores product_tag-tractor-john-deere-5075gv has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
 			<div class="product-block product vertical " data-product-id="6027">
 	<div class="product-content">
 		
 		<div class="block-inner">
 			<figure class="image">
-				<a title="Tractor John Deers 5075GV" href="/producto/tractor-john-deers-5075gv" class="product-image">
-					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/1-1-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractor John Deers 5075GV" />				</a>
+				<a title="Tractor John Deere 5075GV" href="/producto/tractor-john-deere-5075gv" class="product-image">
+					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/1-1-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractor John Deere 5075GV" />				</a>
 								
 	<span class="onsale"><span class="saled">-26%</span></span>
 				</figure>
 		</div>
 		<div class="caption">
-						        <h3 class="name "><a href="/producto/tractor-john-deers-5075gv">Tractor John Deers 5075GV</a></h3>
+						        <h3 class="name "><a href="/producto/tractor-john-deere-5075gv">Tractor John Deere 5075GV</a></h3>
         			
 			
 			
@@ -1571,14 +1571,14 @@
 		
 		<div class="block-inner">
 			<figure class="image">
-				<a title="Minitractores John Deers X380" href="/producto/minitractores-john-deers-x380" class="product-image">
-					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/1-6-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Minitractores John Deers X380" />				</a>
+				<a title="Minitractores John Deere X380" href="/producto/minitractores-john-deere-x380" class="product-image">
+					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/1-6-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Minitractores John Deere X380" />				</a>
 								
 	<span class="onsale"><span class="saled">-19%</span></span>
 				</figure>
 		</div>
 		<div class="caption">
-						        <h3 class="name "><a href="/producto/minitractores-john-deers-x380">Minitractores John Deers X380</a></h3>
+						        <h3 class="name "><a href="/producto/minitractores-john-deere-x380">Minitractores John Deere X380</a></h3>
         			
 			
 				<div class="rating">
@@ -1597,20 +1597,20 @@
         </div>
 
             <div class="item">
-			<div class="products-grid product type-product post-6251 status-publish last instock product_cat-cortacespedes product_tag-cortacesped-john-deers-x107 product_tag-tractor has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+			<div class="products-grid product type-product post-6251 status-publish last instock product_cat-cortacespedes product_tag-cortacesped-john-deere-x107 product_tag-tractor has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
 			<div class="product-block product vertical " data-product-id="6251">
 	<div class="product-content">
 		
 		<div class="block-inner">
 			<figure class="image">
-				<a title="Cortacesped John Deers X107" href="/producto/cortacesped-john-deers-x107" class="product-image">
-					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Cortacesped-John-Deers-X107-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cortacesped John Deers X107" />				</a>
+				<a title="Cortacesped John Deere X107" href="/producto/cortacesped-john-deere-x107" class="product-image">
+					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Cortacesped-John-Deers-X107-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cortacesped John Deere X107" />				</a>
 								
 	<span class="onsale"><span class="saled">-10%</span></span>
 				</figure>
 		</div>
 		<div class="caption">
-						        <h3 class="name "><a href="/producto/cortacesped-john-deers-x107">Cortacesped John Deers X107</a></h3>
+						        <h3 class="name "><a href="/producto/cortacesped-john-deere-x107">Cortacesped John Deere X107</a></h3>
         			
 			
 				<div class="rating">
@@ -1667,14 +1667,14 @@
 		
 		<div class="block-inner">
 			<figure class="image">
-				<a title="Minitractores John Deers X350" href="/producto/minitractores-john-deers-x350" class="product-image">
-					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/1-5-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Minitractores John Deers X350" />				</a>
+				<a title="Minitractores John Deere X350" href="/producto/minitractores-john-deere-x350" class="product-image">
+					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/1-5-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Minitractores John Deere X350" />				</a>
 								
 	<span class="onsale"><span class="saled">-22%</span></span>
 				</figure>
 		</div>
 		<div class="caption">
-						        <h3 class="name "><a href="/producto/minitractores-john-deers-x350">Minitractores John Deers X350</a></h3>
+						        <h3 class="name "><a href="/producto/minitractores-john-deere-x350">Minitractores John Deere X350</a></h3>
         			
 			
 				<div class="rating">

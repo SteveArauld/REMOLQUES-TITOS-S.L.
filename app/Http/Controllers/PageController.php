@@ -9,6 +9,7 @@ class PageController extends Controller
         'politica-privacidad'                    => 'wp.politica-privacidad',
         'terminos-y-condiciones'                 => 'wp.terminos-y-condiciones',
         'politica-de-entregas'                   => 'wp.politica-de-entregas',
+        'gastos-y-plazos-de-envio'               => 'wp.gastos-y-plazos-de-envio',
         'politica-de-devoluciones-y-reembolsos'  => 'wp.politica-de-devoluciones-y-reembolsos',
     ];
 
