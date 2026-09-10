@@ -8,6 +8,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-site-verification" content="61mZwvVUq74GH9EiHo_j2z0v81cZuKUXfAzj0Gl5gDE" />
 
         <script>
             document.documentElement.className = document.documentElement.className + ' yes-js js_active js'
