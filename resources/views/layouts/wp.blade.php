@@ -2445,6 +2445,8 @@ Remolques Titos. Todos los derechos reservados.</p>
                             &nbsp;&middot;&nbsp; Garantía legal de 3 años en productos nuevos (RDL 1/2007).
                             &nbsp;&middot;&nbsp; <a href="/pagina/politica-de-devoluciones-y-reembolsos">Devoluciones</a>
                             &nbsp;&middot;&nbsp; <a href="/pagina/politica-de-entregas">Envíos</a>
+                            &nbsp;&middot;&nbsp; <a href="/pagina/politica-de-cookies">Cookies</a>
+                            &nbsp;&middot;&nbsp; <a href="/pagina/formulario-de-desistimiento">Desistimiento</a>
                             &nbsp;&middot;&nbsp; <a href="/contacto">Contacto</a>
                         </p>
                         <p>

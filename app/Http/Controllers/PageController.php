@@ -11,6 +11,8 @@ class PageController extends Controller
         'politica-de-entregas'                   => 'wp.politica-de-entregas',
         'gastos-y-plazos-de-envio'               => 'wp.gastos-y-plazos-de-envio',
         'politica-de-devoluciones-y-reembolsos'  => 'wp.politica-de-devoluciones-y-reembolsos',
+        'politica-de-cookies'                     => 'wp.politica-de-cookies',
+        'formulario-de-desistimiento'            => 'wp.formulario-de-desistimiento',
     ];
 
     public function show(string $slug)

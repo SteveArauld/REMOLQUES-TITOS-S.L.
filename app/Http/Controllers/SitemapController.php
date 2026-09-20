@@ -41,6 +41,8 @@ class SitemapController extends Controller
             ['/pagina/terminos-y-condiciones', '0.3', 'yearly'],
             ['/pagina/aviso-legal', '0.3', 'yearly'],
             ['/pagina/politica-privacidad', '0.3', 'yearly'],
+            ['/pagina/politica-de-cookies', '0.3', 'yearly'],
+            ['/pagina/formulario-de-desistimiento', '0.3', 'yearly'],
         ] as [$path, $priority, $freq]) {
             $urls[] = ['loc' => url($path), 'priority' => $priority, 'changefreq' => $freq];
         }
