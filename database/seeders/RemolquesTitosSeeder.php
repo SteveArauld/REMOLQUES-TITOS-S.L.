@@ -36,7 +36,7 @@ class RemolquesTitosSeeder extends Seeder
         DB::transaction(function () use ($categories, $products, $reviews) {
             $this->seedCategories($categories);
             $this->seedProducts($products);
-            $this->seedReviews($reviews);
+            // Opiniones importadas de otro sitio: no se publican (solo opiniones reales de clientes).
             $this->refreshRatingAggregates();
         });
 
@@ -91,8 +91,8 @@ class RemolquesTitosSeeder extends Seeder
                     'regular_price'          => $p['regular_price'],
                     'sale_price'             => $p['sale_price'],
                     'currency'               => $p['currency'] ?? null,
-                    'average_rating'         => is_numeric($p['average_rating'] ?? null) ? $p['average_rating'] : null,
-                    'review_count'           => $p['review_count'] ?? 0,
+                    'average_rating'         => null,
+                    'review_count'           => 0,
                     'is_in_stock'            => (bool) ($p['is_in_stock'] ?? true),
                     'is_purchasable'         => (bool) ($p['is_purchasable'] ?? true),
                     'stock_availability'     => $p['stock_availability'] ?? null,

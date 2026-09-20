@@ -68,9 +68,8 @@ class Product extends Model
 
     public function getHasDiscountAttribute(): bool
     {
-        return $this->on_sale
-            && $this->regular_price !== null
-            && (float) $this->regular_price > (float) $this->price;
+        // Sin precio anterior verificable no se muestran descuentos ni precios tachados.
+        return false;
     }
 
     /**

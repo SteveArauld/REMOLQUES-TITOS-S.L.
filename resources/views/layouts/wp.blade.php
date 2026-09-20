@@ -2441,6 +2441,13 @@ Remolques Titos. Todos los derechos reservados.</p>
                             &nbsp;&middot;&nbsp; <span itemprop="addressCountry">España</span>
                         </p>
                         <p>
+                            Formas de pago: transferencia bancaria (los datos se facilitan al confirmar el pedido) o contra reembolso.
+                            &nbsp;&middot;&nbsp; Garantía legal de 3 años en productos nuevos (RDL 1/2007).
+                            &nbsp;&middot;&nbsp; <a href="/pagina/politica-de-devoluciones-y-reembolsos">Devoluciones</a>
+                            &nbsp;&middot;&nbsp; <a href="/pagina/politica-de-entregas">Envíos</a>
+                            &nbsp;&middot;&nbsp; <a href="/contacto">Contacto</a>
+                        </p>
+                        <p>
                             Teléfono: <a href="tel:+34683573516" itemprop="telephone">+34 683 57 35 16</a>
                             &nbsp;&middot;&nbsp; E-mail: <a href="mailto:contacto@remolquestitos.com" itemprop="email">contacto@remolquestitos.com</a>
                         </p>

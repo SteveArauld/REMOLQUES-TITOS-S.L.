@@ -51,7 +51,7 @@
 
 
 
-<p class="wp-block-paragraph"><br><strong>Pago mediante transferencia bancaria or <strong>Contrarrembolso</strong>:</strong><br>Si ha realizado una transferencia bancaria para realizar el pago, contáctenos a contacto@remolquestitos.com y proporcione sus detalles de cuenta bancaria: beneficiario, número de IBAN y código SWIFT. Tenga en cuenta que los reembolsos mediante transferencia bancaria suelen reflejarse dentro de los 5-7 días hábiles.</p>
+<p class="wp-block-paragraph"><br><strong>Pago mediante transferencia bancaria o <strong>Contrarrembolso</strong>:</strong><br>Si ha realizado una transferencia bancaria para realizar el pago, contáctenos a contacto@remolquestitos.com y proporcione sus detalles de cuenta bancaria: beneficiario, número de IBAN y código SWIFT. Tenga en cuenta que los reembolsos mediante transferencia bancaria suelen reflejarse dentro de los 5-7 días hábiles.</p>
 			
 @endverbatim
 @include('partials.legal-company-info')

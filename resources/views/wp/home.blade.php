@@ -330,20 +330,18 @@
 	</div>		    </div>
 		</div>
 				
-	<span class="onsale"><span class="saled">-25%</span></span>
+	
 			
 		
 		
 		<div class="caption">
 			
 			        <h3 class="name "><a href="/producto/tractor-tc-112">Tractor TC 112</a></h3>
-        				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.60 de 5"><span style="width:92%">Valorado con <strong class="rating">4.60</strong> de 5</span></div>			<div class="count"><span>58</span></div>
-			</div>
+        				
 	
 
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>2,380.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 2,380.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>3,180.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 3,180.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>2,380.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 2,380.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 				
 			
@@ -408,20 +406,18 @@
 	</div>		    </div>
 		</div>
 				
-	<span class="onsale"><span class="saled">-22%</span></span>
+	
 			
 		
 		
 		<div class="caption">
 			
 			        <h3 class="name "><a href="/producto/minitractores-john-deere-x350">Minitractores John Deere X350</a></h3>
-        				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.09 de 5"><span style="width:81.8%">Valorado con <strong class="rating">4.09</strong> de 5</span></div>			<div class="count"><span>107</span></div>
-			</div>
+        				
 	
 
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>5,250.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 5,250.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>6,750.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 6,750.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>5,250.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 5,250.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 				
 			
@@ -486,7 +482,7 @@
 	</div>		    </div>
 		</div>
 				
-	<span class="onsale"><span class="saled">-23%</span></span>
+	
 			
 		
 		
@@ -496,7 +492,7 @@
         			
 
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,099.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 1,099.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,420.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 1,420.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,099.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 1,099.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 				
 			
@@ -561,7 +557,7 @@
 	</div>		    </div>
 		</div>
 				
-	<span class="onsale"><span class="saled">-23%</span></span>
+	
 			
 		
 		
@@ -571,7 +567,7 @@
         			
 
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>799.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 799.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,045.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 1,045.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>799.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 799.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 				
 			
@@ -641,7 +637,7 @@
 				<a title="PACK Escarificador GS1700C + Cortacésped GLM880X" href="/producto/pack-escarificador-gs1700c-cortacesped-glm880x" class="product-image">
 					<img loading="lazy" decoding="async" width="1000" height="1000" src="/wp-content/uploads/2024/03/PACK-Escarificador-GS1700C-Cortacesped-GLM880X.png" class="attachment-full size-full" alt="PACK Escarificador GS1700C + Cortacésped GLM880X" />				</a>
 								
-	<span class="onsale"><span class="saled">-17%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -650,7 +646,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>399.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 399.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>480.88<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 480.88&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>399.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 399.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -670,19 +666,17 @@
 				<a title="Cortacesped John Deere X107" href="/producto/cortacesped-john-deere-x107" class="product-image">
 					<img loading="lazy" decoding="async" width="1000" height="1000" src="/wp-content/uploads/2024/03/Cortacesped-John-Deers-X107.png" class="attachment-full size-full" alt="Cortacesped John Deere X107" />				</a>
 								
-	<span class="onsale"><span class="saled">-10%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
 						        <h3 class="name "><a href="/producto/cortacesped-john-deere-x107">Cortacesped John Deere X107</a></h3>
         			
 			
-				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.52 de 5"><span style="width:90.4%">Valorado con <strong class="rating">4.52</strong> de 5</span></div>			<div class="count"><span>142</span></div>
-			</div>
+				
 	
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>3,750.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 3,750.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>4,150.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 4,150.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>3,750.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 3,750.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -702,7 +696,7 @@
 				<a title="Cortacéspedes RMA 235 &#8211; Sistema AK" href="/producto/cortacespedes-rma-235-sistema-ak" class="product-image">
 					<img loading="lazy" decoding="async" width="1000" height="1000" src="/wp-content/uploads/2024/03/Cortacespedes-RMA-235-Sistema-AK.png" class="attachment-full size-full" alt="Cortacéspedes RMA 235 - Sistema AK" />				</a>
 								
-	<span class="onsale"><span class="saled">-14%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -711,7 +705,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>299.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 299.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>349.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 349.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>299.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 299.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -731,7 +725,7 @@
 				<a title="Robot cortacésped para superficies de &lt; 1000 m²" href="/producto/robot-cortacesped-para-superficies-de-1000-m2" class="product-image">
 					<img loading="lazy" decoding="async" width="1000" height="1000" src="/wp-content/uploads/2024/03/robot-cortacesped.png" class="attachment-full size-full" alt="Robot cortacésped para superficies de &lt; 1000 m²" />				</a>
 								
-	<span class="onsale"><span class="saled">-26%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -740,7 +734,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>999.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 999.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,359.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 1,359.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>999.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 999.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -760,7 +754,7 @@
 				<a title="Cortacésped de gasolina GLM880X" href="/producto/cortacesped-de-gasolina-glm880x" class="product-image">
 					<img loading="lazy" decoding="async" width="1000" height="1000" src="/wp-content/uploads/2024/03/Cortacesped-de-gasolina-GLM880X.png" class="attachment-full size-full" alt="Cortacésped de gasolina GLM880X" />				</a>
 								
-	<span class="onsale"><span class="saled">-12%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -769,7 +763,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>278.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 278.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>315.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 315.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>278.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 278.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -789,7 +783,7 @@
 				<a title="Robot cortacésped para jardines de tamaño medio" href="/producto/robot-cortacesped-para-jardines-de-tamano-medio" class="product-image">
 					<img loading="lazy" decoding="async" width="1000" height="1000" src="/wp-content/uploads/2024/03/Robot-cortacesped-.png" class="attachment-full size-full" alt="Robot cortacésped para jardines de tamaño medio" />				</a>
 								
-	<span class="onsale"><span class="saled">-27%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -798,7 +792,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,099.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 1,099.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,499.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 1,499.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,099.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 1,099.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -907,20 +901,18 @@
 	</div>		    </div>
 		</div>
 				
-	<span class="onsale"><span class="saled">-27%</span></span>
+	
 			
 		
 		
 		<div class="caption">
 			
 			        <h3 class="name "><a href="/producto/motoazada-de-212cc-7-hp-ducati-dtl7000-incluye-ruedas-agricolas-y-fresas">Motoazada de 212cc 7 HP Ducati DTL7000 incluye ruedas agrícolas y fresas</a></h3>
-        				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.53 de 5"><span style="width:90.6%">Valorado con <strong class="rating">4.53</strong> de 5</span></div>			<div class="count"><span>93</span></div>
-			</div>
+        				
 	
 
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>399.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 399.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>545.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 545.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>399.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 399.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 				
 			
@@ -985,7 +977,7 @@
 	</div>		    </div>
 		</div>
 				
-	<span class="onsale"><span class="saled">-33%</span></span>
+	
 			
 		
 		
@@ -995,7 +987,7 @@
         			
 
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>425.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 425.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>630.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 630.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>425.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 425.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 				
 			
@@ -1060,20 +1052,18 @@
 	</div>		    </div>
 		</div>
 				
-	<span class="onsale"><span class="saled">-31%</span></span>
+	
 			
 		
 		
 		<div class="caption">
 			
 			        <h3 class="name "><a href="/producto/anova-motoazada-7-hp-mc507">ANOVA MOTOAZADA 7 HP MC507</a></h3>
-        				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.49 de 5"><span style="width:89.8%">Valorado con <strong class="rating">4.49</strong> de 5</span></div>			<div class="count"><span>61</span></div>
-			</div>
+        				
 	
 
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>438.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 438.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>635.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 635.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>438.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 438.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 				
 			
@@ -1138,20 +1128,18 @@
 	</div>		    </div>
 		</div>
 				
-	<span class="onsale"><span class="saled">-12%</span></span>
+	
 			
 		
 		
 		<div class="caption">
 			
 			        <h3 class="name "><a href="/producto/motoazada-mk-909-de-gasolina-de-3-kw-41-cv">Motoazada MK-909 de Gasolina de 3 kW (4,1 CV)</a></h3>
-        				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.63 de 5"><span style="width:92.6%">Valorado con <strong class="rating">4.63</strong> de 5</span></div>			<div class="count"><span>49</span></div>
-			</div>
+        				
 	
 
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>279.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 279.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>317.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 317.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>279.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 279.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 				
 			
@@ -1216,20 +1204,18 @@
 	</div>		    </div>
 		</div>
 				
-	<span class="onsale"><span class="saled">-53%</span></span>
+	
 			
 		
 		
 		<div class="caption">
 			
 			        <h3 class="name "><a href="/producto/motoazada-de-gasolina-gtc190x">Motoazada de gasolina GTC190X</a></h3>
-        				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.46 de 5"><span style="width:89.2%">Valorado con <strong class="rating">4.46</strong> de 5</span></div>			<div class="count"><span>111</span></div>
-			</div>
+        				
 	
 
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>265.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 265.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>559.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 559.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>265.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 265.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 				
 			
@@ -1294,20 +1280,18 @@
 	</div>		    </div>
 		</div>
 				
-	<span class="onsale"><span class="saled">-44%</span></span>
+	
 			
 		
 		
 		<div class="caption">
 			
 			        <h3 class="name "><a href="/producto/motocultor-de-gasolina-gtc220x">Motocultor de gasolina GTC220X</a></h3>
-        				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 3.92 de 5"><span style="width:78.4%">Valorado con <strong class="rating">3.92</strong> de 5</span></div>			<div class="count"><span>63</span></div>
-			</div>
+        				
 	
 
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>418.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 418.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>740.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 740.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>418.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 418.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 				
 			
@@ -1370,7 +1354,7 @@
 				<a title="Tractores John Deere 5067E" href="/producto/tractores-john-deere-5067e" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/John-Deers-Tractor-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractores John Deere 5067E" />				</a>
 								
-	<span class="onsale"><span class="saled">-33%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1379,7 +1363,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>23,900.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 23,900.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>35,800.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 35,800.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>23,900.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 23,900.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1399,7 +1383,7 @@
 				<a title="Tractor 5050E John Deere" href="/producto/tractor-5050e-john-deere" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/John-Deers-Tractor-5050E-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractor 5050E John Deere" />				</a>
 								
-	<span class="onsale"><span class="saled">-20%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1408,7 +1392,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>18,900.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 18,900.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>23,500.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 23,500.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>18,900.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 18,900.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1428,7 +1412,7 @@
 				<a title="Tractor John Deere 5115GV" href="/producto/tractor-john-deere-5115gv" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/5115GV-Tractor-P-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractor John Deere 5115GV" />				</a>
 								
-	<span class="onsale"><span class="saled">-27%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1437,7 +1421,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>36,700.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 36,700.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>49,950.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 49,950.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>36,700.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 36,700.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1457,7 +1441,7 @@
 				<a title="Tractor John Deere 5075GV" href="/producto/tractor-john-deere-5075gv" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/1-1-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractor John Deere 5075GV" />				</a>
 								
-	<span class="onsale"><span class="saled">-26%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1466,7 +1450,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>29,590.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 29,590.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>39,900.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 39,900.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>29,590.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 29,590.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1486,19 +1470,17 @@
 				<a title="Tractor TC 112" href="/producto/tractor-tc-112" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Tractor-TC-112-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractor TC 112" />				</a>
 								
-	<span class="onsale"><span class="saled">-25%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
 						        <h3 class="name "><a href="/producto/tractor-tc-112">Tractor TC 112</a></h3>
         			
 			
-				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.60 de 5"><span style="width:92%">Valorado con <strong class="rating">4.60</strong> de 5</span></div>			<div class="count"><span>58</span></div>
-			</div>
+				
 	
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>2,380.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 2,380.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>3,180.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 3,180.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>2,380.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 2,380.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1518,7 +1500,7 @@
 				<a title="Tractor TC242T" href="/producto/tractor-tc242t" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Tractor-TC242T-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tractor TC242T" />				</a>
 								
-	<span class="onsale"><span class="saled">-21%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1527,7 +1509,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>3,999.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 3,999.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>5,080.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 5,080.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>3,999.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 3,999.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1574,19 +1556,17 @@
 				<a title="Minitractores John Deere X380" href="/producto/minitractores-john-deere-x380" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/1-6-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Minitractores John Deere X380" />				</a>
 								
-	<span class="onsale"><span class="saled">-19%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
 						        <h3 class="name "><a href="/producto/minitractores-john-deere-x380">Minitractores John Deere X380</a></h3>
         			
 			
-				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.57 de 5"><span style="width:91.4%">Valorado con <strong class="rating">4.57</strong> de 5</span></div>			<div class="count"><span>48</span></div>
-			</div>
+				
 	
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>6,999.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 6,999.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>8,675.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 8,675.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>6,999.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 6,999.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1606,19 +1586,17 @@
 				<a title="Cortacesped John Deere X107" href="/producto/cortacesped-john-deere-x107" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Cortacesped-John-Deers-X107-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cortacesped John Deere X107" />				</a>
 								
-	<span class="onsale"><span class="saled">-10%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
 						        <h3 class="name "><a href="/producto/cortacesped-john-deere-x107">Cortacesped John Deere X107</a></h3>
         			
 			
-				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.52 de 5"><span style="width:90.4%">Valorado con <strong class="rating">4.52</strong> de 5</span></div>			<div class="count"><span>142</span></div>
-			</div>
+				
 	
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>3,750.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 3,750.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>4,150.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 4,150.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>3,750.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 3,750.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1638,19 +1616,17 @@
 				<a title="Cortacésped XC48S &#8211; Motor Loncin 139cc &#8211; 46 cm corte." href="/producto/cortacesped-xc48s-motor-loncin-139cc-46-cm-corte" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Cortacesped-XC48S-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cortacésped XC48S - Motor Loncin 139cc - 46 cm corte." />				</a>
 								
-	<span class="onsale"><span class="saled">-20%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
 						        <h3 class="name "><a href="/producto/cortacesped-xc48s-motor-loncin-139cc-46-cm-corte">Cortacésped XC48S &#8211; Motor Loncin 139cc &#8211; 46 cm corte.</a></h3>
         			
 			
-				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.43 de 5"><span style="width:88.6%">Valorado con <strong class="rating">4.43</strong> de 5</span></div>			<div class="count"><span>36</span></div>
-			</div>
+				
 	
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>389.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 389.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>490.55<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 490.55&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>389.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 389.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1670,19 +1646,17 @@
 				<a title="Minitractores John Deere X350" href="/producto/minitractores-john-deere-x350" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/1-5-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Minitractores John Deere X350" />				</a>
 								
-	<span class="onsale"><span class="saled">-22%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
 						        <h3 class="name "><a href="/producto/minitractores-john-deere-x350">Minitractores John Deere X350</a></h3>
         			
 			
-				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.09 de 5"><span style="width:81.8%">Valorado con <strong class="rating">4.09</strong> de 5</span></div>			<div class="count"><span>107</span></div>
-			</div>
+				
 	
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>5,250.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 5,250.00&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>6,750.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 6,750.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>5,250.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 5,250.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1702,7 +1676,7 @@
 				<a title="Robot cortacésped para superficies de &lt; 1000 m²" href="/producto/robot-cortacesped-para-superficies-de-1000-m2" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/robot-cortacesped-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Robot cortacésped para superficies de &lt; 1000 m²" />				</a>
 								
-	<span class="onsale"><span class="saled">-26%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1711,7 +1685,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>999.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 999.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,359.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 1,359.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>999.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 999.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1731,7 +1705,7 @@
 				<a title="Robot Cortacésped Landroid M 500 Wifi" href="/producto/robot-cortacesped-landroid-m-500-wifi" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Robot-Cortacesped-Landroid-M-500-Wifi-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Robot Cortacésped Landroid M 500 Wifi" />				</a>
 								
-	<span class="onsale"><span class="saled">-21%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1740,7 +1714,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>559.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 559.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>709.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 709.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>559.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 559.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1791,7 +1765,7 @@
 				<a title="Remolque Unitrailer GARDEN TRAILER 200 KIPP con laterales de reja y rueda joceky" href="/producto/remolque-unitrailer-garden-trailer-200-kipp-con-laterales-de-reja-y-rueda-joceky" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Remolque-Unitrailer-GARDEN-TRAILER--270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Remolque Unitrailer GARDEN TRAILER 200 KIPP con laterales de reja y rueda joceky" />				</a>
 								
-	<span class="onsale"><span class="saled">-23%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1800,7 +1774,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>799.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 799.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,045.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 1,045.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>799.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 799.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1820,7 +1794,7 @@
 				<a title="Remolque basculante Garden Trailer 200 KIPP de 750 kg" href="/producto/remolque-basculante-garden-trailer-200-kipp-de-750-kg" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Remolque-basculante-Garden-Trailer-200-KIPP-de-750-kg-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Remolque basculante Garden Trailer 200 KIPP de 750 kg" />				</a>
 								
-	<span class="onsale"><span class="saled">-14%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1829,7 +1803,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>799.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 799.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>925.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 925.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>799.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 799.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1849,7 +1823,7 @@
 				<a title="Remolque de carga ligero DAXARA 148" href="/producto/remolque-de-carga-ligero-daxara-148" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Remolque-de-carga--270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Remolque de carga ligero DAXARA 148" />				</a>
 								
-	<span class="onsale"><span class="saled">-21%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1858,7 +1832,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>599.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 599.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>755.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 755.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>599.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 599.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1878,7 +1852,7 @@
 				<a title="Carros remolque con laterales de 400 mm | Capacidad de 1000 kg" href="/producto/carros-remolque-con-laterales-de-400-mm-capacidad-de-1000-kg" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Carros-remolque-con-laterales-de-400-mm-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Carros remolque con laterales de 400 mm | Capacidad de 1000 kg" />				</a>
 								
-	<span class="onsale"><span class="saled">-14%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1887,7 +1861,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>795.88<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 795.88&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>930.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 930.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>795.88<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 795.88&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1907,7 +1881,7 @@
 				<a title="Carrito remolque con laterales de acero de 200 mm | Capacidad de 1000 kg" href="/producto/carrito-remolque-con-laterales-de-acero-de-200-mm-capacidad-de-1000-kg" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Carrito-remolque-con-laterales-de-acero-de-200-mm-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Carrito remolque con laterales de acero de 200 mm | Capacidad de 1000 kg" />				</a>
 								
-	<span class="onsale"><span class="saled">-15%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1916,7 +1890,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>688.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 688.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>815.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 815.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>688.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 688.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1936,7 +1910,7 @@
 				<a title="Carrito Remolque con Laterales de Acero" href="/producto/carrito-remolque-con-laterales-de-acero" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Carrito-Remolque-con-Laterales-de-Acero-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Carrito Remolque con Laterales de Acero" />				</a>
 								
-	<span class="onsale"><span class="saled">-20%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -1945,7 +1919,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>4,999.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 4,999.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>6,250.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 6,250.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>4,999.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 4,999.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -1992,19 +1966,17 @@
 				<a title="Desbrozadora multifuncion Golliath profesional 5 en 1 65CC 4,9 CV" href="/producto/desbrozadora-multifuncion-golliath-profesional-5-en-1-65cc-49-cv" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Desbrozadora-multifuncion-Golliath-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Desbrozadora multifuncion Golliath profesional 5 en 1 65CC 4,9 CV" />				</a>
 								
-	<span class="onsale"><span class="saled">-18%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
 						        <h3 class="name "><a href="/producto/desbrozadora-multifuncion-golliath-profesional-5-en-1-65cc-49-cv">Desbrozadora multifuncion Golliath profesional 5 en 1 65CC 4,9 CV</a></h3>
         			
 			
-				<div class="rating">
-					<div class="star-rating" role="img" aria-label="Valorado con 4.65 de 5"><span style="width:93%">Valorado con <strong class="rating">4.65</strong> de 5</span></div>			<div class="count"><span>56</span></div>
-			</div>
+				
 	
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>289.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 289.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>355.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 355.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>289.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 289.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -2024,7 +1996,7 @@
 				<a title="Desbrozadoras Multifuncion Omega Montmelo 4&#215;1 43cc" href="/producto/desbrozadoras-multifuncion-omega-montmelo-4x1-43cc" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Multifuncion-Omega-Montmelo-4x1-43cc-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Desbrozadoras Multifuncion Omega Montmelo 4x1 43cc" />				</a>
 								
-	<span class="onsale"><span class="saled">-27%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -2033,7 +2005,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>208.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 208.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>288.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 288.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>208.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 208.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -2053,7 +2025,7 @@
 				<a title="Desbrozadoras FS 120" href="/producto/desbrozadoras-fs-120" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Desbrozadoras-FS-120-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Desbrozadoras FS 120" />				</a>
 								
-	<span class="onsale"><span class="saled">-26%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -2062,7 +2034,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>317.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 317.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>429.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 429.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>317.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 317.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -2082,7 +2054,7 @@
 				<a title="Desbrozadoras FSA 200 &#8211; Sistema AP" href="/producto/desbrozadoras-fsa-200-sistema-ap" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/FSA-200-Sistema-AP-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Desbrozadoras FSA 200 - Sistema AP" />				</a>
 								
-	<span class="onsale"><span class="saled">-16%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -2091,7 +2063,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>599.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 599.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>715.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 715.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>599.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 599.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -2111,7 +2083,7 @@
 				<a title="Desbrozadoras FSA 80 &#8211; Sistema AK" href="/producto/desbrozadoras-fsa-80-sistema-ak" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Desbrozadoras-FSA-80-Sistema-AK-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Desbrozadoras FSA 80 - Sistema AK" />				</a>
 								
-	<span class="onsale"><span class="saled">-22%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -2120,7 +2092,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>399.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 399.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>510.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 510.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>399.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 399.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					
@@ -2140,7 +2112,7 @@
 				<a title="Desbrozadora de gasolina FS 491 C-EM" href="/producto/desbrozadora-de-gasolina-fs-491-c-em" class="product-image">
 					<img loading="lazy" decoding="async" width="270" height="270" src="/wp-content/uploads/2024/03/Desbrozadora-de-gasolina-FS-491-C-EM-270x270.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Desbrozadora de gasolina FS 491 C-EM" />				</a>
 								
-	<span class="onsale"><span class="saled">-39%</span></span>
+	
 				</figure>
 		</div>
 		<div class="caption">
@@ -2149,7 +2121,7 @@
 			
 			
 			
-	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>799.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 799.99&euro;.</span><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,320.00<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></del> <span class="screen-reader-text">El precio original era: 1,320.00&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
+	<span class="price"><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>799.99<span class="woocommerce-Price-currencySymbol" translate="no">&euro;</span></bdi></span></ins><span class="screen-reader-text">El precio actual es: 799.99&euro;.</span> <small class="woocommerce-price-suffix">IVA INCLUIDO</small></span>
 
 
 					

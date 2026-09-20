@@ -12,7 +12,7 @@
 @endphp
 
 @section('meta_title', ($seoBrand && stripos($seoName, $seoBrand) === false ? $seoBrand.' ' : '').$seoName.' | '.$seoPriceTxt.' - Remolques Titos')
-@section('meta_description', \Illuminate\Support\Str::limit($seoRawDesc !== '' ? $seoRawDesc : ($seoName.' al mejor precio en Remolques Titos. Envío gratis a toda España. IVA incluido.'), 160))
+@section('meta_description', \Illuminate\Support\Str::limit($seoRawDesc !== '' ? $seoRawDesc : ($seoName.' en Remolques Titos. Envío gratis a toda España. IVA incluido.'), 160))
 @section('canonical', route('product.show', $product->slug))
 @section('og_type', 'product')
 @section('og_image', $product->images->isNotEmpty() ? asset($product->images->first()->path) : $product->thumb_url)
@@ -49,7 +49,6 @@
         'url'             => route('product.show', $product->slug),
         'priceCurrency'   => $product->currency ?: 'EUR',
         'price'           => number_format((float) $product->price, 2, '.', ''),
-        'priceValidUntil' => now()->addYear()->format('Y-m-d'),
         'itemCondition'   => 'https://schema.org/NewCondition',
         'availability'    => $inStock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
         'seller'          => ['@type' => 'Organization', 'name' => config('app.name', 'Remolques Titos')],
